@@ -2,9 +2,9 @@ import type { NextPage } from "next";
 
 const SocialMedias: NextPage = () => {
   return (
-    <div>
+    <div className="pb-24">
       <div className="text-center px-8 py-16 sm:p-16">
-        <h3 className="text-2xl tracking-tight font-extrabold text-indigo-400 md:text-3xl lg:text-4xl ">
+        <h3 className="text-2xl tracking-tight font-extrabold text-indigo-400 md:text-3xl lg:text-4xl">
           Partagez votre chapelet au monde entier !
         </h3>
       </div>
@@ -20,8 +20,8 @@ const SocialMedias: NextPage = () => {
               src="/telegram.png"
             />
             <span className="block text-gray-600">
-              pour les discussions, demander de l&apos;aide, contacter les bénévoles
-              et pour publier les photos de vos chapelets
+              pour les discussions, demander de l&apos;aide, contacter les
+              bénévoles et pour publier les photos de vos chapelets
             </span>
           </a>
         </div>

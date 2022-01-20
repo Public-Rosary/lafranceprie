@@ -2,14 +2,13 @@ import type { NextPage } from "next";
 
 const HomeForm: NextPage = () => {
   return (
-    <div className="text-center pb-16">
+    <div className="text-center my-16" id="form">
       <span className="text-xl tracking-tight text-gray-600 md:text-2xl lg:text-3xl ">
-        Vous ne trouvez rien à coté de chez vous ? 
+        Vous ne trouvez rien à coté de chez vous ?
       </span>{" "}
       <span className="text-xl tracking-tight text-indigo-600 md:text-2xl lg:text-3xl">
         Organisez-le !
       </span>
-
       <div className="mt-8 flex justify-center">
         <div className="rounded-md shadow">
           <a
