@@ -14,71 +14,85 @@ const WorldPublicRosary: NextPage = () => {
             src="/flags/at.svg"
             alt="Austria flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
           <img
             src="/flags/be.svg"
             alt="Belgium flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
           <img
             src="/flags/ca.svg"
             alt="Canada flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
           <img
             src="/flags/cz.svg"
             alt="Czech Republic flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
           <img
             src="/flags/cr.svg"
             alt="Croatia flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
           <img
             src="/flags/de.svg"
             alt="Germany flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
           <img
             src="/flags/ie.svg"
             alt="Ireland flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
           <img
             src="/flags/it.svg"
             alt="Italy flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
           <img
             src="/flags/lb.svg"
             alt="Lebanon flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
           <img
             src="/flags/pt.svg"
             alt="Portugal flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
           <img
             src="/flags/ro.svg"
             alt="Romania flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
           <img
             src="/flags/ch.svg"
             alt="Switzerland flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
           <img
             src="/flags/ug.svg"
             alt="Uganda flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
           <img
             src="/flags/us.svg"
             alt="United States of America flag"
             className="max-h-12 rounded-md"
+            loading="lazy"
           />
         </div>
         <p className="text-base text-gray-500 sm:text-lg sm:mx-auto md:text-xl p-4">

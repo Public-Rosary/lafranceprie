@@ -18,6 +18,7 @@ const SocialMedias: NextPage = () => {
             <img
               className="inline h-8 w-auto sm:h-32 m-6"
               src="/telegram.png"
+              loading="lazy"
             />
             <span className="block text-gray-600">
               pour les discussions, demander de l&apos;aide, contacter les
@@ -34,6 +35,7 @@ const SocialMedias: NextPage = () => {
             <img
               className="inline h-8 w-auto sm:h-32 m-6"
               src="/instagram.jpeg"
+              loading="lazy"
             />
             <span className="block text-gray-600">
               sur lequel nous publions les photos de vos chapelets
@@ -49,6 +51,7 @@ const SocialMedias: NextPage = () => {
             <img
               className="inline h-8 w-auto sm:h-32 m-6"
               src="/facebook.png"
+              loading="lazy"
             />
             <span className="block text-gray-600">
               sur lequel nous publions les photos de vos chapelets
