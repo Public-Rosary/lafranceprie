@@ -20,6 +20,13 @@ const Home: NextPage = () => {
           content="une initiative de laïcs catholiques pour promouvoir et multiplier la récitation du chapelet pour la France dans l'espace public pour ainsi confier cet espace à la Sainte Vierge et obtenir d'elle le retour de la paix et de la liberté dans le respect du droit naturel dans la société française"
         />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:url" content="https://www.lafranceprie.org"></meta>
+        <meta property="og:site_name" content="La France prie"></meta>
+        <meta property="og:locale" content="fr_FR"></meta>
+
+        <meta property="og:image" content="https://www.lafranceprie.org/social-medias/link-preview-20220121.jpg"></meta>
+        <meta data-rh="true" property="og:image:width" content="1200"></meta>
+        <meta data-rh="true" property="og:image:height" content="631"></meta>
       </Head>
       <header>
         <Menu>
