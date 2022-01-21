@@ -16,6 +16,7 @@ const Map: NextPage = () => {
         <iframe
           src="https://www.google.com/maps/d/u/0/embed?mid=1RRHCUPF7ygW2cj4tRMbiKwSC9tAxXyXS&ehbc=2E312F"
           className="w-full h-full block bg-gray-100 mt-4"
+          loading="lazy"
         ></iframe>
       </div>
     </div>
