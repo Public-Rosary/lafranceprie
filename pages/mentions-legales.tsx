@@ -16,7 +16,8 @@ const Charter: NextPage = () => {
           <h3>Qui sommes-nous ?</h3>
           <p>Une équipe de laïcs catholiques bénévoles</p>
           <p>
-            Directeur de publication : Julien Le Page<br/>
+            Directeur de publication : Julien Le Page
+            <br />
             Responsable technique : Joseph Page
           </p>
 
@@ -29,6 +30,22 @@ const Charter: NextPage = () => {
             101 Townsend St,
             <br />
             San Francisco, CA 94107
+          </p>
+
+          <h3>Cookies</h3>
+          <p>
+            Nous n'utilisons pas de cookies. Pour mesurer les visites nous
+            utilisons seulement les données de notre hébergeur qui nous donnent
+            le nombre de personnes qui chargent les pages, sans davantage
+            d'informations personnelles.
+          </p>
+
+          <p>
+            En revanche nous utilisons les services de Google (Maps et Youtube)
+            qui, eux, sont susceptibles d'utiliser des cookies, de vous
+            reconnaitre et de vous suivre sur d'autres sites. Malheureusement
+            nous ne pouvons pas les en empêcher. Rassurez-vous nous travaillons
+            à les remplacer par des équivalents.
           </p>
         </div>
       </main>

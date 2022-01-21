@@ -8,6 +8,7 @@ import HistoryVideo from "../components/history-video";
 import SocialMedias from "../components/social-medias";
 import Footer from "../components/footer";
 import Menu from "../components/menu";
+import WorldPublicRosary from '../components/world-public-rosary';
 
 const Home: NextPage = () => {
   return (
@@ -34,7 +35,7 @@ const Home: NextPage = () => {
                 Une initiative de laïcs catholiques pour promouvoir et
                 multiplier la récitation du chapelet pour la France dans
                 l&apos;espace public pour confier ainsi cet espace à la Sainte
-                Vierge et obtenir d&apos;elle le retour de la paix et de la
+                Vierge et obtenir d&apos;Elle le retour de la paix et de la
                 liberté dans le respect du droit naturel dans la société
                 française.
               </p>
@@ -71,6 +72,8 @@ const Home: NextPage = () => {
         <HistoryVideo />
 
         <SocialMedias />
+
+        <WorldPublicRosary />
       </main>
 
       <Footer />
