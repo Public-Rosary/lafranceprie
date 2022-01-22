@@ -22,7 +22,7 @@ const SocialMedias: NextPage = () => {
             />
             <span className="block text-gray-600">
               pour les discussions, demander de l&apos;aide, contacter les
-              bénévoles et pour publier les photos de vos chapelets
+              bénévoles et pour nous envoyer les photos de vos chapelets
             </span>
           </a>
         </div>

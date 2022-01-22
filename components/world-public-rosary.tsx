@@ -96,9 +96,10 @@ const WorldPublicRosary: NextPage = () => {
           />
         </div>
         <p className="text-base text-gray-500 sm:text-lg sm:mx-auto md:text-xl p-4">
-          Découvrez l&apos;initiative dans les autres pays du monde{" "}
+          Découvrez l&apos;initiative dans les autres pays du monde
+          sur&nbsp;le&nbsp;site&nbsp;international&nbsp;:{" "}
           <a href="https://public-rosary.org/" className="text-blue-500">
-            sur le site international
+            <span className="whitespace-nowrap">public-rosary.org</span>
           </a>
         </p>
       </div>

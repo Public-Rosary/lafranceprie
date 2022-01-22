@@ -6,8 +6,9 @@ const Footer: NextPage = () => {
     <footer className="grid text-center py-10 bg-indigo-100">
       <div className="text-gray-700">
         <span>
-          Initiative La France prie - Initiatives de laïcs catholiques bénévoles
-          | <Link href="/mentions-legales">Mentions légales</Link>
+          <i>Initiative La France prie</i>
+          {" "}| <Link href="/mentions-legales">Mentions légales</Link>
+          {" "}| <Link href="/contact">Nous contacter</Link>
         </span>
       </div>
     </footer>

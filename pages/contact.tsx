@@ -8,7 +8,7 @@ const Charter: NextPage = () => {
   return (
     <>
       <Head>
-        <title>La France prie | Mentions légales</title>
+        <title>La France prie | Nous contacter</title>
         <meta
           name="description"
           content="une initiative de laïcs catholiques pour promouvoir et multiplier la récitation du chapelet pour la France dans l'espace public pour ainsi confier cet espace à la Sainte Vierge et obtenir d'elle le retour de la paix et de la liberté dans le respect du droit naturel dans la société française"
@@ -16,48 +16,60 @@ const Charter: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta
           property="og:url"
-          content="https://www.lafranceprie.org/mentions-legales"
+          content="https://www.lafranceprie.org/contact"
         ></meta>
       </Head>
       <Layout>
         <main className="mx-auto max-w-7xl px-4 sm:px-6 my-8 md:my-8 lg:my-12 lg:px-8 xl:my-12">
           <div className="text-center">
             <h3 className="text-2xl tracking-tight font-extrabold text-indigo-400 md:text-3xl lg:text-4xl ">
-              Mentions légales
+              Nous contacter
             </h3>
           </div>
+
           <div className="text-justify prose lg:prose-lg p-1 my-12 lg:my-24 w-full mx-auto prose-h3:relative prose-h3:-left-2">
-            <h3>Qui sommes-nous ?</h3>
             <p>
-              Une équipe de laïcs catholiques bénévoles, indépendemment de tous
-              mouvements, diocèses ou paroisses.
+              Nous sommes tous bénévoles, nous pouvons mettre plusieurs heures à
+              plusieurs jours pour vous répondre en fonction de notre
+              disponibilité.
+              <br />
+              Nous vous remercions de votre compréhension.
             </p>
 
-            <h3>Notre hébergeur</h3>
-            <p>
-              <b>Cloudflare, Inc.</b>
-              <br />
-              Attn: Legal Department
-              <br />
-              101 Townsend St,
-              <br />
-              San Francisco, CA 94107
-            </p>
+            <h3>Par mail</h3>
 
-            <h3>Cookies</h3>
             <p>
-              Nous n'utilisons pas de cookies. Pour mesurer les visites nous
-              utilisons seulement les données de notre hébergeur qui nous
-              donnent le nombre de personnes qui chargent les pages, sans
-              davantage d'informations personnelles.
+              Pour toutes les questions :{" "}
+              <a href="mailto:contact@lafranceprie.org">
+                contact@lafranceprie.org
+              </a>
             </p>
 
             <p>
-              En revanche nous utilisons les services de Google (Maps et
-              Youtube) qui, eux, sont susceptibles d'utiliser des cookies, de
-              vous reconnaitre et de vous suivre sur d'autres sites.
-              Malheureusement nous ne pouvons pas les en empêcher. Rassurez-vous
-              nous travaillons à les remplacer par des équivalents.
+              Pour la presse :{" "}
+              <a href="mailto:presse@lafranceprie.org">
+                presse@lafranceprie.org
+              </a>
+            </p>
+            <h3>Sur les réseaux sociaux</h3>
+
+            <p>
+              Telegram :{" "}
+              <a href="https://t.me/lafranceprie">https://t.me/lafranceprie</a>
+            </p>
+
+            <p>
+              Facebook :{" "}
+              <a href="https://www.facebook.com/LaFrancePrie2022/">
+                https://www.facebook.com/LaFrancePrie2022/
+              </a>
+            </p>
+
+            <p>
+              Instagram :{" "}
+              <a href="https://instagram.com/lafranceprie">
+                https://instagram.com/lafranceprie
+              </a>
             </p>
           </div>
         </main>

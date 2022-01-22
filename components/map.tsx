@@ -5,7 +5,7 @@ const Map: NextPage = () => {
     <div id="carte">
       <div className="text-center px-8 py-16 sm:p-16">
         <h3 className="text-2xl tracking-tight font-extrabold text-indigo-400 md:text-3xl lg:text-4xl">
-          Déjà plus de 1720 chapelets dans toute la France !
+          Déjà plus de 1780 chapelets dans toute la France !
         </h3>
       </div>
       <div className="container mx-auto w-full h-[32rem] md:h-[48rem] pb-16 text-center">
