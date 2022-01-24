@@ -4,7 +4,7 @@ import Head from "next/head";
 
 import Layout from "../components/layout";
 
-const Charter: NextPage = () => {
+const LegalsPage: NextPage = () => {
   return (
     <>
       <Head>
@@ -66,4 +66,4 @@ const Charter: NextPage = () => {
   );
 };
 
-export default Charter;
+export default LegalsPage;

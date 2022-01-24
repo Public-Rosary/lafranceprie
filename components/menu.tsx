@@ -6,9 +6,9 @@ import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
-  { name: "La Carte", href: "/#carte" },
+  { name: "Les lieux", href: "/#carte" },
   //  { name: "Organiser", href: "#form" },
-  { name: "Charte", href: "/charte" },
+  { name: "La charte", href: "/charte" },
 ];
 
 const Menu: NextPage = ({ children }) => {
@@ -34,7 +34,7 @@ const Menu: NextPage = ({ children }) => {
                   aria-label="Global"
                 >
                   <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-                    <div className="flex items-center justify-between w-full md:w-auto">
+                    <div className="flex items-center justify-between w-full md:w-auto cursor-pointer">
                       <Link href="/" passHref>
                         <img
                           className="h-8 w-auto sm:h-16"
@@ -54,13 +54,13 @@ const Menu: NextPage = ({ children }) => {
                   <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                     {navigation.map((item) => (
                       <Link key={item.name} href={item.href}>
-                        <span className="font-medium text-gray-500 hover:text-gray-900">
+                        <span className="font-medium text-gray-500 hover:text-gray-900 cursor-pointer">
                           {item.name}
                         </span>
                       </Link>
                     ))}
                     <Link href="/#form">
-                      <span className="font-medium text-indigo-600 hover:text-indigo-500">
+                      <span className="font-medium text-indigo-600 hover:text-indigo-500 cursor-pointer">
                         Organiser un chapelet
                       </span>
                     </Link>

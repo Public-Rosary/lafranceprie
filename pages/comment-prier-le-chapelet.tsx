@@ -4,11 +4,11 @@ import Head from "next/head";
 
 import Layout from "../components/layout";
 
-const ContactPage: NextPage = () => {
+const HowToPrayRosaryPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>La France prie | Nous contacter</title>
+        <title>La France prie | Comment prier le chapelet</title>
         <meta
           name="description"
           content="une initiative de laïcs catholiques pour promouvoir et multiplier la récitation du chapelet pour la France dans l'espace public pour ainsi confier cet espace à la Sainte Vierge et obtenir d'elle le retour de la paix et de la liberté dans le respect du droit naturel dans la société française"
@@ -23,52 +23,42 @@ const ContactPage: NextPage = () => {
         <main className="mx-auto max-w-7xl px-4 sm:px-6 my-8 md:my-8 lg:my-12 lg:px-8 xl:my-12">
           <div className="text-center">
             <h3 className="text-2xl tracking-tight font-extrabold text-indigo-400 md:text-3xl lg:text-4xl ">
-              Nous contacter
+              Comment prier le chapelet ?
             </h3>
           </div>
 
           <div className="text-justify prose lg:prose-lg p-1 my-12 lg:my-24 w-full mx-auto prose-h3:relative prose-h3:-left-2">
+            <h3>Quelques ressources :</h3>
+
             <p>
-              Nous sommes tous bénévoles, nous pouvons mettre plusieurs heures à
-              plusieurs jours pour vous répondre en fonction de notre
-              disponibilité.
-              <br />
-              Nous vous remercions de votre compréhension.
+              <ul>
+                <li>
+                  Un beau site qui explique comment prier le chapelet et vous
+                  proposent d'en acheter si vous n'en avez pas encore:{" "}
+                  <a href="https://www.prierlechapelet.com/">
+                    https://www.prierlechapelet.com/
+                  </a>
+                </li>
+
+                <li>
+                <a target='_blank' href="/pdf/comment-prier-le-rosaire.pdf">Un guide rapide à imprimer</a>
+                </li>
+
+                <li>
+                  Un bot Telegram qui vous accompagne dans votre récitation et
+                  vous rappelle chaque jour de prier le chapelet :{" "}
+                  <a href="https://t.me/chapeletbot">
+                    https://t.me/chapeletbot
+                  </a>
+                </li>
+              </ul>
             </p>
 
-            <h3>Par mail</h3>
-
             <p>
-              Pour toutes les questions :{" "}
+              Vous souhaitez proposer un outil pour découvrir le chapelet ou une
+              prière ? écrivez-nous à cette adresse :{" "}
               <a href="mailto:contact@lafranceprie.org">
                 contact@lafranceprie.org
-              </a>
-            </p>
-
-            <p>
-              Pour la presse :{" "}
-              <a href="mailto:presse@lafranceprie.org">
-                presse@lafranceprie.org
-              </a>
-            </p>
-            <h3>Sur les réseaux sociaux</h3>
-
-            <p>
-              Telegram :{" "}
-              <a href="https://t.me/lafranceprie">https://t.me/lafranceprie</a>
-            </p>
-
-            <p>
-              Facebook :{" "}
-              <a href="https://www.facebook.com/LaFrancePrie2022/">
-                https://www.facebook.com/LaFrancePrie2022/
-              </a>
-            </p>
-
-            <p>
-              Instagram :{" "}
-              <a href="https://instagram.com/lafranceprie">
-                https://instagram.com/lafranceprie
               </a>
             </p>
           </div>
@@ -78,4 +68,4 @@ const ContactPage: NextPage = () => {
   );
 };
 
-export default ContactPage;
+export default HowToPrayRosaryPage;

@@ -24,7 +24,7 @@ const summaries = [
   {
     question: "Comment ?",
     answer:
-      "Debout, à genoux, chacun comme il le souhaite et comme la météo le permet, à voix haute sans haut-parleur. Si un prêtre est présent, il lui est réservé de faire une petite intervention à caractère purement religieux et de bénir les participants en fin de chapelet. On peut aussi chanter quelques chants et prier Saint-Joseph. Durée conseillé : au total environ 30 minutes.",
+      "Debout, à genoux, chacun comme il le souhaite et comme la météo le permet, à voix haute sans haut-parleur. Si un prêtre est présent, il lui est réservé de faire une petite intervention à caractère purement religieux et de bénir les participants en fin de chapelet. On peut aussi chanter quelques chants et prier Saint-Joseph. Durée conseillée : au total environ 30 minutes.",
   },
   {
     question: "Pourquoi ?",

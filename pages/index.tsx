@@ -9,6 +9,7 @@ import SocialMedias from "../components/social-medias";
 import Footer from "../components/footer";
 import Menu from "../components/menu";
 import WorldPublicRosary from "../components/world-public-rosary";
+import Faq from "../components/faq";
 
 const description = `Une initiative de laïcs catholiques pour promouvoir et multiplier la récitation du chapelet pour la France dans l'espace public pour confier ainsi cet espace à la Sainte Vierge et obtenir d'Elle le retour de la paix et de la liberté dans le respect du droit naturel dans la société française.`;
 
@@ -89,6 +90,8 @@ const Home: NextPage = () => {
         <SocialMedias />
 
         <WorldPublicRosary />
+
+        <Faq />
       </main>
 
       <Footer />
