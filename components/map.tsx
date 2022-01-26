@@ -1,11 +1,12 @@
-import type { NextPage } from "next";
+import type { InferGetStaticPropsType } from 'next'
+import { getRosaryPlacesCountFromKML } from '../lib/google_maps/rosary_datasource';
 
-const Map: NextPage = () => {
+const Map = ({ total }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <div id="carte">
       <div className="text-center px-8 py-16 sm:p-16">
         <h3 className="text-2xl tracking-tight font-extrabold text-indigo-400 md:text-3xl lg:text-4xl">
-          Déjà plus de 2080 chapelets dans toute la France !
+          Déjà plus de {total} chapelets dans toute la France !
         </h3>
       </div>
       <div className="container mx-auto w-full h-[32rem] md:h-[48rem] pb-16 text-center">
@@ -22,5 +23,14 @@ const Map: NextPage = () => {
     </div>
   );
 };
+
+export const getStaticProps = async () => { 
+  const total = await getRosaryPlacesCountFromKML() 
+  return {
+    props: {
+      total,
+    },
+  }
+}
 
 export default Map;

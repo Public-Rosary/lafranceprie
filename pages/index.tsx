@@ -1,7 +1,7 @@
-import type { NextPage } from "next";
+import type { NextPage, InferGetStaticPropsType } from "next";
 import Head from "next/head";
 
-import Map from "../components/map";
+import Map, { getStaticProps as mapGetStaticProps } from "../components/map";
 import HomeForm from "../components/home-form";
 import Summary from "../components/summary";
 import HistoryVideo from "../components/history-video";
@@ -13,7 +13,7 @@ import Faq from "../components/faq";
 
 const description = `Une initiative de laïcs catholiques pour promouvoir et multiplier la récitation du chapelet pour la France dans l'espace public pour confier ainsi cet espace à la Sainte Vierge et obtenir d'Elle le retour de la paix et de la liberté dans le respect du droit naturel dans la société française.`;
 
-const Home: NextPage = () => {
+const Home = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <div>
       <Head>
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
       </header>
 
       <main className="max-w-7xl mx-auto">
-        <Map />
+        <Map {...props.mapComponentProps}/>
 
         <HomeForm />
 
@@ -98,5 +98,13 @@ const Home: NextPage = () => {
     </div>
   );
 };
+
+export const getStaticProps = async ()=>{
+  return {
+    props: {
+      mapComponentProps: (await mapGetStaticProps()).props
+    }
+  }
+}
 
 export default Home;
