@@ -25,10 +25,11 @@ const Map = ({ total }: InferGetStaticPropsType<typeof getStaticProps>) => {
 };
 
 export const getStaticProps = async () => { 
-  const total = await getRosaryPlacesCountFromKML() 
+  const total = await getRosaryPlacesCountFromKML()
+  const roundedTotal = Math.floor(total / 10) * 10
   return {
     props: {
-      total,
+      total: roundedTotal,
     },
   }
 }
