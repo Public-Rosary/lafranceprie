@@ -26,7 +26,7 @@ const Home = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
 
         <meta
           property="og:image"
-          content="https://www.lafranceprie.org/social-medias/link-preview-20220121.jpg"
+          content="https://www.lafranceprie.org/social-medias/link-preview-20220129.jpg"
         ></meta>
         <meta property="og:image:width" content="1200"></meta>
         <meta property="og:image:height" content="631"></meta>
@@ -38,7 +38,7 @@ const Home = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
         ></meta>
         <meta
           property="twitter:image"
-          content="https://www.lafranceprie.org/social-medias/link-preview-20220121.jpg"
+          content="https://www.lafranceprie.org/social-medias/link-preview-20220129.jpg"
         ></meta>
         <meta property="twitter:description" content={description}></meta>
       </Head>
