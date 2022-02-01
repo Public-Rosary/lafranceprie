@@ -34,7 +34,7 @@ const SocialMedias: NextPage = () => {
 
             <img
               className="inline h-8 w-auto sm:h-32 m-6"
-              src="/instagram.jpeg"
+              src="/instagram.jpg"
               loading="lazy"
             />
             <span className="block text-gray-600">
