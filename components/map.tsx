@@ -1,7 +1,15 @@
-import type { InferGetStaticPropsType } from 'next'
-import { getRosaryPlacesCountFromKML } from '../lib/google_maps/rosary_datasource';
+import type { InferGetStaticPropsType } from "next";
+import { ExternalLinkIcon } from '@heroicons/react/solid'
 
-const Map = ({ total }: InferGetStaticPropsType<typeof getStaticProps>) => {
+import {
+  getRosaryPlacesTotalCount,
+  getRosaryPlacesCountByWeekday,
+} from "../lib/google_maps/rosary_datasource";
+
+const Map = ({
+  total,
+  folders,
+}: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <div id="carte">
       <div className="text-center px-8 py-16 sm:p-16">
@@ -9,29 +17,52 @@ const Map = ({ total }: InferGetStaticPropsType<typeof getStaticProps>) => {
           Déjà plus de {total} chapelets dans toute la France !
         </h3>
       </div>
-      <div className="container mx-auto w-full h-[32rem] md:h-[48rem] pb-16 text-center">
+      <div className="container mx-auto w-full pb-8 text-center">
         <span className="text-sm md:text-base text-gray-600">
-          Cliquez sur un point de la carte pour voir le jour et l&apos;heure.<br />
-          Si aucun jour n&apos;est précisé, alors le chapelet a lieu le mercredi.
+          Cliquez sur un point de la carte pour voir le jour et l&apos;heure.
+          <br />
+          Si vous rencontrez une difficulté pour naviguer dans la carte, ouvrez
+          la carte dans Maps avec{" "}
+          <a
+            className="text-blue-600"
+            href="https://www.google.com/maps/d/viewer?mid=1RRHCUPF7ygW2cj4tRMbiKwSC9tAxXyXS"
+          >
+            ce lien <ExternalLinkIcon className="inline h-4 w-4" />
+          </a>
         </span>
-        <iframe
-          src="https://www.google.com/maps/d/u/0/embed?mid=1RRHCUPF7ygW2cj4tRMbiKwSC9tAxXyXS&ehbc=2E312F"
-          className="w-full h-full block bg-gray-100 mt-4"
-          loading="lazy"
-        ></iframe>
+        
+      </div>
+      <div className="w-auto h-[448px] md:h-[704px] block bg-gray-100 mx-4">
+          <iframe
+            src="https://www.google.com/maps/d/u/0/embed?mid=1RRHCUPF7ygW2cj4tRMbiKwSC9tAxXyXS&ehbc=2E312F"
+            className="block w-full h-full"
+            loading="lazy"
+          ></iframe>
+        </div>
+      <div className="text-center text-sm text-gray-600">
+        (
+        {folders
+          .map<React.ReactNode>((folder) => (
+            <span key={folder.name}>
+              {folder.count + " chaque " + folder.name}
+            </span>
+          ))
+          .reduce((prev, curr) => [prev, ", ", curr])}
+        )
       </div>
     </div>
   );
 };
 
-export const getStaticProps = async () => { 
-  const total = await getRosaryPlacesCountFromKML()
-  const roundedTotal = Math.floor(total / 10) * 10
+export const getStaticProps = async () => {
+  const total = await getRosaryPlacesTotalCount();
+  const roundedTotal = Math.floor(total / 10) * 10;
   return {
     props: {
       total: roundedTotal,
+      folders: await getRosaryPlacesCountByWeekday(),
     },
-  }
-}
+  };
+};
 
 export default Map;
