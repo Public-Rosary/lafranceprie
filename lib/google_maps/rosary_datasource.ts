@@ -1,5 +1,5 @@
 import { compose, last, reject, isNil, toString, map, memoizeWith, range, split } from "ramda";
-import { DOMParser } from "xmldom";
+import { DOMParser } from "@xmldom/xmldom";
 
 const KML_URL: string =
   "https://www.google.com/maps/d/u/0/kml?forcekml=1&mid=1RRHCUPF7ygW2cj4tRMbiKwSC9tAxXyXS";
