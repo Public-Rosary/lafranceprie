@@ -13,7 +13,7 @@ const Faq: NextPage = () => {
         <div className="md:p-4 text-gray-500 text-lg">
           <ul className="list-disc list-inside">
             <li className="hover:underline hover:text-black">
-              <Link href="/comment-prier-le-chapelet">
+              <Link href="/faq/comment-prier-le-chapelet">
                 Comment prier le chapelet ?
               </Link>
             </li>
