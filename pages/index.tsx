@@ -44,22 +44,22 @@ const Home = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
       </Head>
       <header>
         <Menu>
-          <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
+          <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 sm:pb-16 md:mt-16 md:pb-20 lg:mt-20 lg:px-8 lg:pb-28 xl:mt-28 xl:pb-32">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+              <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block">Initiative</span>{" "}
                 <span className="block text-indigo-400 xl:inline">
                   La France prie
                 </span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
                 {description}
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
                     href="#carte"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
                   >
                     Voir la carte des chapelets
                   </a>
@@ -67,7 +67,7 @@ const Home = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="#decouvrir"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
                   >
                     Découvrir
                   </a>
@@ -78,8 +78,8 @@ const Home = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
         </Menu>
       </header>
 
-      <main className="max-w-7xl mx-auto">
-        <Map {...props.mapComponentProps}/>
+      <main className="mx-auto max-w-7xl">
+        <Map {...props.mapComponentProps} />
 
         <HomeForm />
 
@@ -99,12 +99,12 @@ const Home = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
   );
 };
 
-export const getStaticProps = async ()=>{
+export const getStaticProps = async () => {
   return {
     props: {
-      mapComponentProps: (await mapGetStaticProps()).props
-    }
-  }
-}
+      mapComponentProps: (await mapGetStaticProps()).props,
+    },
+  };
+};
 
 export default Home;

@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 const HomeForm: NextPage = () => {
   return (
-    <div className="text-center my-16" id="form">
+    <div className="my-16 text-center" id="form">
       <span className="text-xl tracking-tight text-gray-600 md:text-2xl lg:text-3xl ">
         Vous ne trouvez rien à coté de chez vous ?
       </span>{" "}
@@ -15,7 +15,7 @@ const HomeForm: NextPage = () => {
             href="https://forms.gle/2VbxqYAATKeK7oKG9"
             target="_blank"
             rel="noreferrer"
-            className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+            className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
           >
             Inscrire mon chapelet sur la carte
           </a>

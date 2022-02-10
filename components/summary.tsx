@@ -51,10 +51,10 @@ const Summary: NextPage = () => {
           className="grid grid-cols-4 p-2 hover:text-indigo-600"
           key={question}
         >
-          <div className="col-span-4 sm:col-span-1 font-bold sm:text-right text-lg p-4">
+          <div className="col-span-4 p-4 text-lg font-bold sm:col-span-1 sm:text-right">
             {question}
           </div>
-          <div className="col-span-4 sm:col-span-3 text-gray-600 hover:text-black pb-4 sm:p-4">
+          <div className="col-span-4 pb-4 text-gray-600 hover:text-black sm:col-span-3 sm:p-4">
             {answer}
           </div>
         </div>

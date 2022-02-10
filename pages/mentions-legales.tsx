@@ -20,13 +20,13 @@ const LegalsPage: NextPage = () => {
         ></meta>
       </Head>
       <Layout>
-        <main className="mx-auto max-w-7xl px-4 sm:px-6 my-8 md:my-8 lg:my-12 lg:px-8 xl:my-12">
+        <main className="mx-auto my-8 max-w-7xl px-4 sm:px-6 md:my-8 lg:my-12 lg:px-8 xl:my-12">
           <div className="text-center">
-            <h3 className="text-2xl tracking-tight font-extrabold text-indigo-400 md:text-3xl lg:text-4xl ">
+            <h3 className="text-2xl font-extrabold tracking-tight text-indigo-400 md:text-3xl lg:text-4xl ">
               Mentions légales
             </h3>
           </div>
-          <div className="text-justify prose lg:prose-lg p-1 my-12 lg:my-24 w-full mx-auto prose-h3:relative prose-h3:-left-2">
+          <div className="prose my-12 mx-auto w-full p-1 text-justify prose-h3:relative prose-h3:-left-2 lg:prose-lg lg:my-24">
             <h3>Qui sommes-nous ?</h3>
             <p>
               Une équipe de laïcs catholiques bénévoles, indépendemment de tous

@@ -3,12 +3,12 @@ import Link from "next/link";
 
 const Footer: NextPage = () => {
   return (
-    <footer className="grid text-center py-10 bg-indigo-100">
+    <footer className="grid bg-indigo-100 py-10 text-center">
       <div className="text-gray-700">
         <span>
-          <i>Initiative La France prie</i>
-          {" "}| <Link href="/mentions-legales">Mentions légales</Link>
-          {" "}| <Link href="/contact">Nous contacter</Link>
+          <i>Initiative La France prie</i> |{" "}
+          <Link href="/mentions-legales">Mentions légales</Link> |{" "}
+          <Link href="/contact">Nous contacter</Link>
         </span>
       </div>
     </footer>

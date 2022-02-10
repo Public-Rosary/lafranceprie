@@ -1,4 +1,14 @@
-import { compose, last, reject, isNil, toString, map, memoizeWith, range, split } from "ramda";
+import {
+  compose,
+  last,
+  reject,
+  isNil,
+  toString,
+  map,
+  memoizeWith,
+  range,
+  split,
+} from "ramda";
 import { DOMParser } from "@xmldom/xmldom";
 
 const KML_URL: string =
@@ -11,57 +21,56 @@ export async function getRosaryPlacesTotalCount() {
   return total;
 }
 
-
-export async function getRosaryPlacesCountByWeekday(){
+export async function getRosaryPlacesCountByWeekday() {
   const kmlDom = await getKMLFile(KML_URL);
-  const foldersList = getFolders(kmlDom)
-  const foldersCount = foldersList.length
+  const foldersList = getFolders(kmlDom);
+  const foldersCount = foldersList.length;
 
   const getFolderName = (index: number) => {
-    const folder = foldersList.item(index)
+    const folder = foldersList.item(index);
     return {
       name: compose(extractLastWord, getName)(folder) as string,
-      count: getPlacemarks(folder)?.length || 0
-    }
-  }
+      count: getPlacemarks(folder)?.length || 0,
+    };
+  };
 
-  const folders = map(getFolderName, range(0, foldersCount))
+  const folders = map(getFolderName, range(0, foldersCount));
 
-  return folders
+  return folders;
 }
 
 export const getKMLFile = memoizeWith(toString, async (url) => {
-    const response = await fetch(url);
-    const data = await response.text();
+  const response = await fetch(url);
+  const data = await response.text();
 
-    return new DOMParser().parseFromString(data);
-})
+  return new DOMParser().parseFromString(data);
+});
 
 // XML Helpers
 
 const getPlacemarks = (element: Document | HTMLElement | Element | null) => {
-  return element?.getElementsByTagName("Placemark")
-}
+  return element?.getElementsByTagName("Placemark");
+};
 
 const getFolders = (element: Document | HTMLElement) => {
-  return element.getElementsByTagName("Folder")
-}
+  return element.getElementsByTagName("Folder");
+};
 
 const getName = (element: HTMLElement | Element | null) => {
-  return element?.getElementsByTagName("name").item(0)?.textContent || ""
-}
+  return element?.getElementsByTagName("name").item(0)?.textContent || "";
+};
 
 const getCoordinates = (element: HTMLElement | Element | null) => {
-  return element?.getElementsByTagName("coordinates").item(0)?.textContent
-}
+  return element?.getElementsByTagName("coordinates").item(0)?.textContent;
+};
 
 const getDescription = (element: HTMLElement | Element | null) => {
-  return element?.getElementsByTagName("description").item(0)?.textContent
-}
+  return element?.getElementsByTagName("description").item(0)?.textContent;
+};
 
 // Name helpers
 
-const extractLastWord = compose(last, split(" "))
+const extractLastWord = compose(last, split(" "));
 
 // If we need to iterate, use :
 // Array.from(kmlDom.documentElement.getElementsByTagName("Folder")).map(() => {})
