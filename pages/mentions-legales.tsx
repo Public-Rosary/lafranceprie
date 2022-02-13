@@ -44,6 +44,16 @@ const LegalsPage: NextPage = () => {
               San Francisco, CA 94107
             </p>
 
+            <p>
+              Images et photos hébergées chez Cloudinary
+              <br />
+              Carte hébergée chez Google
+              <br />
+              Statistiques web avec Cloudflare Web Analytics (sans cookie)
+              <br />
+              Polices de caractères Google Font
+            </p>
+
             <h3>Cookies</h3>
             <p>
               Nous n'utilisons pas de cookies. Pour mesurer les visites nous

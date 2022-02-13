@@ -65,7 +65,7 @@ const Menu: NextPage = ({ children }) => {
                         </span>
                       </Link>
                     ))}
-                    <Link href="/#form" passHref>
+                    <Link href="/organiser-un-chapelet" passHref>
                       <span className="cursor-pointer font-medium text-indigo-600 hover:text-indigo-500">
                         Organiser un chapelet
                       </span>
@@ -113,7 +113,7 @@ const Menu: NextPage = ({ children }) => {
                         </Link>
                       ))}
                     </div>
-                    <Link href="/#form" passHref>
+                    <Link href="/organiser-un-chapelet" passHref>
                       <span className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100">
                         Organiser un chapelet
                       </span>
