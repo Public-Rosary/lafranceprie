@@ -17,14 +17,14 @@ const HowToBeginARosaryPage: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta
           property="og:url"
-          content="https://www.lafranceprie.org/organiser-un-chapelet"
+          content="https://www.lafranceprie.org/gerer-mon-chapelet"
         ></meta>
       </Head>
       <Layout>
         <main className="mx-auto my-8 max-w-7xl md:my-8 lg:my-12 xl:my-12">
           <div className="text-center">
             <h1 className="text-2xl font-extrabold tracking-tight text-indigo-400 md:text-3xl lg:text-4xl ">
-              J’organise un chapelet public
+              Organiser ou gérer un chapelet public
             </h1>
           </div>
 
@@ -100,7 +100,7 @@ const HowToBeginARosaryPage: NextPage = () => {
             <div className="xl:col-span-1 xl:sticky xl:top-10 md:mx-auto max-w-[48rem]">
             <div className="rounded bg-indigo-50 m-2 p-2 text-center border-2 border-indigo-100">
               <h3 className="my-4 text-2xl font-bold">
-                Prêt(e) à ajouter votre chapelet sur&nbsp;la&nbsp;carte ?
+                Ajouter ou gérer votre chapelet sur&nbsp;la&nbsp;carte
               </h3>
               <p className="m-2 text-sm text-gray-500">
                 Chaque formulaire est vérifié par un bénévole qui place le point

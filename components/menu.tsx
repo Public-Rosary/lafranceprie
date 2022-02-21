@@ -65,9 +65,9 @@ const Menu: NextPage = ({ children }) => {
                         </span>
                       </Link>
                     ))}
-                    <Link href="/organiser-un-chapelet" passHref>
+                    <Link href="/gerer-mon-chapelet" passHref>
                       <span className="cursor-pointer font-medium text-indigo-600 hover:text-indigo-500">
-                        Organiser un chapelet
+                        Organiser ou gérer mon chapelet
                       </span>
                     </Link>
                   </div>
@@ -113,9 +113,9 @@ const Menu: NextPage = ({ children }) => {
                         </Link>
                       ))}
                     </div>
-                    <Link href="/organiser-un-chapelet" passHref>
+                    <Link href="/gerer-mon-chapelet" passHref>
                       <span className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100">
-                        Organiser un chapelet
+                        Organiser ou gérer mon chapelet
                       </span>
                     </Link>
                   </div>
