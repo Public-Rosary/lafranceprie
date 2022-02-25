@@ -12,6 +12,7 @@ const navigation = [
   { name: "Les lieux", href: "/#carte" },
   //  { name: "Organiser", href: "#form" },
   { name: "La charte", href: "/charte" },
+  { name: "Les affiches", href: "/affiches" },
 ];
 
 const Menu: NextPage = ({ children }) => {
@@ -31,7 +32,7 @@ const Menu: NextPage = ({ children }) => {
             </svg>
 
             <Popover>
-              <div className="relative px-4 pt-6 sm:px-6 lg:px-8">
+              <div className="relative px-4 pt-6 sm:px-6 lg:px-8 lg:pr-0">
                 <nav
                   className="relative flex items-center justify-between sm:h-10 lg:justify-start"
                   aria-label="Global"
@@ -57,7 +58,7 @@ const Menu: NextPage = ({ children }) => {
                       </div>
                     </div>
                   </div>
-                  <div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
+                  <div className="hidden md:ml-6 md:block md:space-x-6 md:pr-4">
                     {navigation.map((item) => (
                       <Link key={item.name} href={item.href} passHref>
                         <span className="cursor-pointer font-medium text-gray-500 hover:text-gray-900">
