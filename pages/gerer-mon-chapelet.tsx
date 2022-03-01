@@ -28,8 +28,8 @@ const HowToBeginARosaryPage: NextPage = () => {
             </h1>
           </div>
 
-          <div className="xl:grid xl:grid-cols-3 my-12 lg:my-24">
-            <div className="xl:col-span-2 xl:row-span-3 prose mx-auto p-4 text-justify lg:prose-lg">
+          <div className="my-12 lg:my-24 xl:grid xl:grid-cols-3">
+            <div className="prose mx-auto p-4 text-justify lg:prose-lg xl:col-span-2 xl:row-span-3">
               <h3>Pourquoi organiser un chapelet public ?</h3>
               <ul>
                 <li>
@@ -97,56 +97,66 @@ const HowToBeginARosaryPage: NextPage = () => {
                 </li>
               </ul>
             </div>
-            <div className="xl:col-span-1 xl:sticky xl:top-10 md:mx-auto max-w-[48rem]">
-            <div className="rounded bg-indigo-50 m-2 p-2 text-center border-2 border-indigo-100">
-              <h3 className="my-4 text-2xl font-bold">
-                Ajouter ou gérer votre chapelet sur&nbsp;la&nbsp;carte
-              </h3>
-              <p className="m-2 text-sm text-gray-500">
-                Chaque formulaire est vérifié par un bénévole qui place le point
-                sur la carte, le temps de temps de traitement dépend de leurs
-                disponibilités, de quelques minutes à quelques heures. Merci de
-                votre compréhension.
-              </p>
-              <p className="m-2 text-lg text-gray-500">
-                Choisissez le bon formulaire en fonction de votre
-                situation&nbsp;:
-              </p>
-              <div className="m-4 inline-flex rounded-md shadow">
-                <a
-                  href="https://forms.gle/2VbxqYAATKeK7oKG9"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
-                >
-                  Chapelet tous les mercredis
-                </a>
-              </div>
+            <div className="max-w-[48rem] md:mx-auto xl:sticky xl:top-10 xl:col-span-1">
+              <div className="m-2 rounded border-2 border-indigo-100 bg-indigo-50 p-2 text-center">
+                <h3 className="my-4 text-2xl font-bold">
+                  Ajouter ou gérer votre chapelet sur&nbsp;la&nbsp;carte
+                </h3>
+                <p className="m-2 text-sm text-gray-500">
+                  Chaque formulaire est vérifié par un bénévole qui place le
+                  point sur la carte, le temps de temps de traitement dépend de
+                  leurs disponibilités, de quelques minutes à quelques heures.
+                  Merci de votre compréhension.
+                </p>
+                <p className="m-2 text-lg text-gray-500">
+                  Choisissez le bon formulaire en fonction de votre
+                  situation&nbsp;:
+                </p>
+                <div className="m-4 inline-flex rounded-md shadow">
+                  <a
+                    href="https://forms.gle/2VbxqYAATKeK7oKG9"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+                  >
+                    Chapelet tous les mercredis
+                  </a>
+                </div>
 
-              <div className="m-4 inline-flex rounded-md shadow">
-                <a
-                  href="https://forms.gle/ERd7noKgS8apHk2q7"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
-                >
-                  Chapelet un autre jour de&nbsp;la&nbsp;semaine
-                </a>
+                <div className="m-4 inline-flex rounded-md shadow">
+                  <a
+                    href="https://forms.gle/ERd7noKgS8apHk2q7"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
+                  >
+                    Chapelet un autre jour de&nbsp;la&nbsp;semaine
+                  </a>
+                </div>
               </div>
-            </div>
-            <div className="rounded m-2 p-2 text-center border-2 border-indigo-100">
-              <h3 className="my-4 text-xl font-bold">
-                IMPORTANT
-              </h3>
-              <p className="m-2 md:text-lg text-gray-500 text-justify p-2">
-                <ul className="list-disc list-inside">
-                  <li className="m-2">Avant d'ajouter un nouveau chapelet, merci de vérifier sur la carte qu'il n'y est pas déjà.</li>
-                  <li className="m-2">Il n'est pas nécessaire de réinscrire les chapelets chaque semaine.</li>
-                  <li className="m-2">Le même formulaire permet de créer, modifier ou supprimer un lieu de chapelet.</li>
-                  <li className="m-2">Merci de prendre soin de bien répondre aux questions pour permettre aux bénévoles de traiter au mieux votre demande.</li>
-                </ul>
-              </p>
-            </div>
+              <div className="m-2 rounded border-2 border-indigo-100 p-2 text-center">
+                <h3 className="my-4 text-xl font-bold">IMPORTANT</h3>
+                <p className="m-2 p-2 text-justify text-gray-500 md:text-lg">
+                  <ul className="list-inside list-disc">
+                    <li className="m-2">
+                      Avant d'ajouter un nouveau chapelet, merci de vérifier sur
+                      la carte qu'il n'y est pas déjà.
+                    </li>
+                    <li className="m-2">
+                      Il n'est pas nécessaire de réinscrire les chapelets chaque
+                      semaine.
+                    </li>
+                    <li className="m-2">
+                      Le même formulaire permet de créer, modifier ou supprimer
+                      un lieu de chapelet.
+                    </li>
+                    <li className="m-2">
+                      Merci de prendre soin de bien répondre aux questions pour
+                      permettre aux bénévoles de traiter au mieux votre demande.
+                    </li>
+                  </ul>
+                </p>
+              </div>
             </div>
           </div>
         </main>

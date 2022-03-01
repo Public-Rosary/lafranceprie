@@ -33,24 +33,36 @@ const HowToPrayRosaryPage: NextPage = () => {
             <p>
               <ul>
                 <li>
+                  Histoire et guide du rosaire sur le site du Vatican :{" "}
+                  <a href="https://www.vatican.va/special/rosary/index_rosary_fr.htm">
+                    vatican.va
+                  </a>
+                </li>
+
+                <li>
+                  Un résumé concis par le diocèse de Paris :{" "}
+                  <a href="https://www.paris.catholique.fr/comment-prier-le-chapelet.html">
+                    paris.catholique.fr
+                  </a>
+                </li>
+
+                <li>
+                  Un{" "}
+                  <a href="https://petitessoeursdespauvres.org/actualite/prier-le-chapelet/">
+                    guide rapide
+                  </a>{" "}
+                  écrit par la Congrégation des Petites Soeurs des pauvres.
+                  Accompagné d'un{" "}
+                  <a href="https://petitessoeursdespauvres.org/wp-content/uploads/sites/8/2021/03/Prier-le-chapelet.pdf">
+                    livret imprimable
+                  </a>
+                </li>
+
+                <li>
                   Un beau site qui explique comment prier le chapelet et vous
                   proposent d'en acheter si vous n'en avez pas encore:{" "}
                   <a href="https://www.prierlechapelet.com/">
-                    https://www.prierlechapelet.com/
-                  </a>
-                </li>
-
-                <li>
-                  <a target="_blank" href="/pdf/comment-prier-le-rosaire.pdf">
-                    Un guide rapide à imprimer
-                  </a>
-                </li>
-
-                <li>
-                  Un bot Telegram qui vous accompagne dans votre récitation et
-                  vous rappelle chaque jour de prier le chapelet :{" "}
-                  <a href="https://t.me/chapeletbot">
-                    https://t.me/chapeletbot
+                    prierlechapelet.com
                   </a>
                 </li>
               </ul>
