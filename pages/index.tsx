@@ -1,5 +1,6 @@
 import type { NextPage, InferGetStaticPropsType } from "next";
 import Head from "next/head";
+import Link from "next/link";
 
 import Map, { getStaticProps as mapGetStaticProps } from "../components/map";
 import HomeForm from "../components/home-form";
@@ -71,6 +72,13 @@ const Home = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
                   >
                     Découvrir
                   </a>
+                </div>
+                <div className="mt-3 sm:mt-0 sm:ml-3 sm:hidden">
+                  <Link href="/gerer-mon-chapelet">
+                    <span className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg">
+                    Organiser et gérer mon chapelet
+                  </span>
+                  </Link>
                 </div>
               </div>
             </div>
