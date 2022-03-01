@@ -50,9 +50,9 @@ const posters = [
   },
   {
     cloudinaryPublicId: "posters/affiche_lfp_a4_natshez_pontmain_imu2wm",
-    fileName: "affiche_lfp_a4_natshez_pontmain_imu2wm.png",
+    fileName: "affiche_lfp_a4_natshez_pontmain.png",
     imageAlt: "Affiche Variante 8",
-    shortLink: "https://bit.ly/3IGN9gw",
+    shortLink: "https://bit.ly/3puq6h3",
   },
 ];
 
