@@ -17,12 +17,12 @@ const posters = [
     imageAlt: "Affiche Variante 2",
     shortLink: "https://bit.ly/3M2hlo7",
   },
-  {
-    cloudinaryPublicId: "posters/Affiche_LFP_A4_GHachette_l6vkrp",
-    fileName: "affiche_lfp_a4_ghachette.pdf",
-    imageAlt: "Affiche Variante 3",
-    shortLink: "https://bit.ly/3t2SB6x",
-  },
+  // {
+  //   cloudinaryPublicId: "posters/Affiche_LFP_A4_GHachette_l6vkrp",
+  //   fileName: "affiche_lfp_a4_ghachette.pdf",
+  //   imageAlt: "Affiche Variante 3",
+  //   shortLink: "https://bit.ly/3t2SB6x",
+  // },
   {
     cloudinaryPublicId: "posters/Affiche_AF_LFP_A3_couleur_dgno7b",
     fileName: "affiche_af_lfp_a3_couleur.pdf",
@@ -53,6 +53,18 @@ const posters = [
     fileName: "affiche_lfp_a4_natshez_pontmain.png",
     imageAlt: "Affiche Variante 8",
     shortLink: "https://bit.ly/3puq6h3",
+  },
+  {
+    cloudinaryPublicId: "posters/affiche_lfp_a3_lespetitsbrins-1_ljzm1d",
+    fileName: "affiche_lfp_a3_lespetitsbrins-1.pdf",
+    imageAlt: "Affiche Variante 9",
+    shortLink: "https://bit.ly/3MnNjLZ",
+  },
+  {
+    cloudinaryPublicId: "posters/affiche_lfp_a3_lespetitsbrins-2_tspceo",
+    fileName: "affiche_lfp_a3_lespetitsbrins-2.pdf",
+    imageAlt: "Affiche Variante 10",
+    shortLink: "https://bit.ly/34env3C",
   },
 ];
 
