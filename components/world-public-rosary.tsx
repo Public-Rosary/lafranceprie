@@ -5,7 +5,7 @@ const WorldPublicRosary: NextPage = () => {
     <div id="carte">
       <div className="p-8 text-center">
         <h3 className="text-2xl font-extrabold tracking-tight text-indigo-400 md:text-3xl lg:text-4xl">
-          Et plus de 4000 lieux de chapelets dans le monde entier !
+          Et plus de 4600 lieux de chapelets dans le monde entier !
         </h3>
       </div>
       <div className="container mx-auto w-full pb-16 text-center">
