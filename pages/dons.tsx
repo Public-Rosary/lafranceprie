@@ -34,20 +34,40 @@ const GivingPage: NextPage = () => {
               Nous vous en remercions vivement.
             </p>
 
+            <h3>Coordonnées bancaires:</h3>
+            <p>
+              <span className="underline">IBAN</span>: FR76 1380 7000 5832 8219
+              7950 554
+              <br />
+              <span className="underline">BIC</span>: CCBFRPPNAN
+              <br />
+              <span className="underline">Titulaire de compte</span>:
+              Association La France Prie
+            </p>
+
             <h3>Paypal</h3>
 
             <p>
               <a href="https://paypal.me/lafranceprie?country.x=FR&locale.x=fr_FR">
-              Cliquez ici pour être redirigé vers Paypal
+                Cliquez ici pour être redirigé vers Paypal
               </a>
             </p>
 
             <h3>Chèques</h3>
 
             <p>
-              Chèques a l'ordre de : "Association La France Prie", 1, rue de la Sellerie, 49220 Le Lion d'Angers"
+              Chèques a l'ordre de : "Association La France Prie", 1, rue de la
+              Sellerie, 49220 Le Lion d'Angers"
             </p>
 
+            <h3>Acheter un Polo</h3>
+
+            <p>
+              <a href="https://www.tresorsdetantecotine.com/polos-sweats">
+                Cliquez ici pour nous soutenir par l'achat de polos "La France
+                prie"
+              </a>
+            </p>
           </div>
         </main>
       </Layout>
