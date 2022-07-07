@@ -13,6 +13,7 @@ const navigation = [
   //  { name: "Organiser", href: "#form" },
   { name: "La charte", href: "/charte" },
   { name: "Les affiches", href: "/affiches" },
+  { name: "Dons", href: "/dons" },
 ];
 
 const Menu: NextPage = ({ children }) => {
