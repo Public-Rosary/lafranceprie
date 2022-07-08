@@ -2,6 +2,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { TwitterTimelineEmbed } from  'react-twitter-embed';
+import FacebookFeed from "../components/facebook-feed";
 
 import Layout from "../components/layout";
 
@@ -36,7 +37,12 @@ const SocialPage: NextPage = () => {
             <TwitterTimelineEmbed sourceType="profile" screenName="FrancePrie" options={{height: 500}} />
 
             </p>
+            <h3>Facebook</h3>
+            <p>
 
+            <FacebookFeed height={500} width={380} />
+
+            </p>
           </div>
         </main>
       </Layout>
