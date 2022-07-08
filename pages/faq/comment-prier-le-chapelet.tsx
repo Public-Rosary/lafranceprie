@@ -1,8 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from 'next/image';
 
 import Layout from "../../components/layout";
+
+const pdfId = 'Rosaire_1_y17f0q';
 
 const HowToPrayRosaryPage: NextPage = () => {
   return (
@@ -33,38 +36,31 @@ const HowToPrayRosaryPage: NextPage = () => {
             <p>
               <ul>
                 <li>
-                  Histoire et guide du rosaire sur le site du Vatican :{" "}
-                  <a href="https://www.vatican.va/special/rosary/index_rosary_fr.htm">
-                    vatican.va
-                  </a>
+                  Histoire et guide du rosaire sur le site de la Milice de
+                  l'Immaculée :{" "}
+                  <a href="https://m-i.info/fr/le-rosaire/">m-i.info</a>
                 </li>
-
                 <li>
-                  Un résumé concis par le diocèse de Paris :{" "}
-                  <a href="https://www.paris.catholique.fr/comment-prier-le-chapelet.html">
-                    paris.catholique.fr
-                  </a>
+                  Dévotion des 1° samedis du mois:{" "}
+                  <a href="https://salve-corda.org/">salve-corda.org</a>
                 </li>
-
                 <li>
-                  Un{" "}
-                  <a href="https://petitessoeursdespauvres.org/actualite/prier-le-chapelet/">
-                    guide rapide
-                  </a>{" "}
-                  écrit par la Congrégation des Petites Soeurs des pauvres.
-                  Accompagné d'un{" "}
-                  <a href="https://petitessoeursdespauvres.org/wp-content/uploads/sites/8/2021/03/Prier-le-chapelet.pdf">
-                    livret imprimable
-                  </a>
-                </li>
-
-                <li>
-                  Un beau site qui explique comment prier le chapelet et vous
-                  proposent d'en acheter si vous n'en avez pas encore:{" "}
-                  <a href="https://www.prierlechapelet.com/">
-                    prierlechapelet.com
-                  </a>
-                </li>
+                  Un PDF qui explique comment prier le Rosaire:{" "}
+                  <div className="mx-auto">
+                  <a href="https://res.cloudinary.com/lafranceprie/image/upload/v1657288244/Rosaire_1_y17f0q.pdf" download>
+                    <div className="border-4 border-white bg-gray-200 shadow-lg transition-shadow hover:shadow-2xl">
+                      <Image
+                        src={`${pdfId}.jpg`}
+                        alt="Comment prier le rosaire pdf"
+                        className="aspect-[1/1.41] max-w-[300px] bg-gray-300"
+                        loading="lazy"
+                        layout="responsive"
+                        width={300}
+                        height={500}
+                      />
+                      </div>
+                      </a>
+                    </div></li>
               </ul>
             </p>
 
