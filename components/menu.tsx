@@ -74,11 +74,6 @@ const Menu: NextPage<Props> = ({ children }) => {
                         </span>
                       </Link>
                     ))}
-                    <Link href="/gerer-mon-chapelet" passHref>
-                      <span className="cursor-pointer font-medium text-indigo-600 hover:text-indigo-500">
-                        Organiser ou gérer mon chapelet
-                      </span>
-                    </Link>
                   </div>
                 </nav>
               </div>
