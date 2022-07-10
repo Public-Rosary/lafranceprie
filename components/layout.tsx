@@ -1,9 +1,14 @@
+import { ReactNode } from 'react';
 import { NextPage } from "next";
 
 import Menu from "../components/menu";
 import Footer from "../components/footer";
 
-const Layout: NextPage = ({ children }) => {
+type Props = {
+  children: ReactNode;
+};
+
+const Layout: NextPage<Props> = ({ children }) => {
   return (
     <>
       <header>

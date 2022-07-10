@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import type { ReactNode } from "react";
 import type { NextPage } from "next";
 
 import Link from "next/link";
@@ -7,6 +8,10 @@ import Image from "next/image";
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+
+type Props = {
+  children?: ReactNode;
+};
 
 const navigation = [
   { name: "Les lieux", href: "/#carte" },
@@ -17,7 +22,7 @@ const navigation = [
   { name: "Presse", href: "/presse" },
 ];
 
-const Menu: NextPage = ({ children }) => {
+const Menu: NextPage<Props> = ({ children }) => {
   return (
     <>
       <div className="relative overflow-visible bg-white">
