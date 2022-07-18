@@ -12,7 +12,7 @@ import {
 import { DOMParser } from "@xmldom/xmldom";
 
 const KML_URL: string =
-  "https://www.google.com/maps/d/u/0/kml?forcekml=1&mid=1RRHCUPF7ygW2cj4tRMbiKwSC9tAxXyXS";
+  "https://www.google.com/maps/d/u/0/kml?forcekml=1&mid=1tgRCljNiwiEEpT__8o5yJhl2cH3tlCg";
 
 export async function getRosaryPlacesTotalCount() {
   const kmlDom = await getKMLFile(KML_URL);

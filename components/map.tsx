@@ -25,7 +25,7 @@ const Map = ({
           la carte dans Maps avec{" "}
           <a
             className="text-blue-600"
-            href="https://www.google.com/maps/d/viewer?mid=1RRHCUPF7ygW2cj4tRMbiKwSC9tAxXyXS"
+            href="https://www.google.com/maps/d/viewer?mid=1tgRCljNiwiEEpT__8o5yJhl2cH3tlCg"
           >
             ce lien <ExternalLinkIcon className="inline h-4 w-4" />
           </a>
@@ -33,7 +33,7 @@ const Map = ({
       </div>
       <div className="mx-4 block h-[448px] w-auto bg-gray-100 md:h-[704px]">
         <iframe
-          src="https://www.google.com/maps/d/u/0/embed?mid=1RRHCUPF7ygW2cj4tRMbiKwSC9tAxXyXS&ehbc=2E312F"
+          src="https://www.google.com/maps/d/u/0/embed?mid=1tgRCljNiwiEEpT__8o5yJhl2cH3tlCg&ehbc=2E312F"
           className="block h-full w-full"
           loading="lazy"
         ></iframe>
