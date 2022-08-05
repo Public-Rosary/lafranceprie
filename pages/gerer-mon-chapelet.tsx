@@ -64,7 +64,7 @@ const HowToBeginARosaryPage: NextPage = () => {
               <ul>
                 <li>
                   mes amis, mes voisins, les paroissiens que je connais, toutes
-                  les personnes en quête d'espérance autour de moi
+                  les personnes désireuses d'honorer la Sainte Vierge autour de moi
                 </li>
                 <li>
                   je peux l’organiser même si je ne connais personne pour venir
