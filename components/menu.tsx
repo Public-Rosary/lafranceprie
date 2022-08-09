@@ -78,6 +78,11 @@ const Menu: NextPage<Props> = ({ children }) => {
                         Organiser ou gérer mon chapelet
                       </span>
                     </Link>
+                    <Link href="/vierge-pelerine" passHref>
+                      <span className="cursor-pointer font-bold text-indigo-600 hover:text-indigo-500">
+                        Vierge Pèlerine
+                      </span>
+                    </Link>
                   </div>
                 </nav>
               </div>
@@ -124,6 +129,11 @@ const Menu: NextPage<Props> = ({ children }) => {
                     <Link href="/gerer-mon-chapelet" passHref>
                       <span className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100">
                         Organiser ou gérer mon chapelet
+                      </span>
+                    </Link>
+                    <Link href="/vierge-pelerine" passHref>
+                      <span className="block w-full bg-gray-50 px-5 py-3 text-center font-bold text-indigo-600 hover:bg-gray-100">
+                        Vierge Pèlerine
                       </span>
                     </Link>
                   </div>

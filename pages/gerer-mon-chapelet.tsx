@@ -64,7 +64,8 @@ const HowToBeginARosaryPage: NextPage = () => {
               <ul>
                 <li>
                   mes amis, mes voisins, les paroissiens que je connais, toutes
-                  les personnes désireuses d'honorer la Sainte Vierge autour de moi
+                  les personnes désireuses d'honorer la Sainte Vierge autour de
+                  moi
                 </li>
                 <li>
                   je peux l’organiser même si je ne connais personne pour venir
@@ -99,12 +100,28 @@ const HowToBeginARosaryPage: NextPage = () => {
             </div>
             <div className="max-w-[48rem] md:mx-auto xl:sticky xl:top-10 xl:col-span-1">
               <div className="m-2 rounded border-2 border-indigo-100 bg-indigo-50 p-2 text-center">
+              <h3 className="my-4 text-2xl font-bold">
+                  Initiative "Vierge Pèlerine"
+                </h3>
+                <p>Inscrivez votre groupe avant le 18 Septembre 2022 pour recevoir la Vierge Pèlerine à partir d'Octobre</p>
+                <div className="m-4 inline-flex rounded-md shadow">
+                  <Link
+                    href="/vierge-pelerine"
+                    >
+                  <a className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+                  >
+                    Découvrir l'initiative
+                  </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="m-2 rounded border-2 border-indigo-100 bg-indigo-50 p-2 text-center">
                 <h3 className="my-4 text-2xl font-bold">
                   Ajouter ou gérer votre chapelet sur&nbsp;la&nbsp;carte
                 </h3>
                 <p className="m-2 text-sm text-gray-500">
                   Chaque formulaire est vérifié par un bénévole qui place le
-                  point sur la carte, le temps de temps de traitement dépend de
+                  point sur la carte, le temps de traitement dépend de
                   leurs disponibilités, de quelques minutes à quelques heures.
                   Merci de votre compréhension.
                 </p>
