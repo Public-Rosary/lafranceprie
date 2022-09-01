@@ -73,8 +73,8 @@ const Home = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
                     Découvrir
                   </a>
                 </div>
-                </div>
-                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+              </div>
+              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="mt-3 sm:mt-0">
                   <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSfYFTd8u5yTloETN-t1cBeC7IgLiWp_cwXEu8UBx-nP1OJoQw/viewform"
@@ -83,11 +83,23 @@ const Home = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
                     Ajouter une intention de prière
                   </a>
                 </div>
+              </div>
+              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                <div className="mt-3 sm:mt-0">
+                  <a
+                    href="/vierge-pelerine"
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
+                  >
+                    Vierge Pèlerine
+                  </a>
+                </div>
+              </div>
+              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="mt-3 sm:mt-0 sm:ml-3 sm:hidden">
                   <Link href="/gerer-mon-chapelet">
                     <span className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg">
-                    Organiser et gérer mon chapelet
-                  </span>
+                      Organiser et gérer mon chapelet
+                    </span>
                   </Link>
                 </div>
               </div>
