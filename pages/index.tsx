@@ -86,12 +86,11 @@ const Home = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
               </div>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="mt-3 sm:mt-0">
-                  <a
-                    href="/vierge-pelerine"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
-                  >
-                    Vierge Pèlerine
-                  </a>
+                  <Link href="/vierge-pelerine">
+                    <span className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg">
+                      Vierge Pèlerine
+                    </span>
+                  </Link>
                 </div>
               </div>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
