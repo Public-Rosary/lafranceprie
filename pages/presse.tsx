@@ -60,6 +60,13 @@ const PressPage: NextPage = () => {
             <h3>Interviews radio :</h3>
             <p>
               <MicrophoneIcon className="inline-block h-5 w-5 text-blue-500	" />
+              <a href="https://radionotredame.net/emissions/la-question-du-jour/05-09-2022/">
+                Radio Notre-Dame le 5 septembre 2022
+              </a>{" "}
+              (jusqu'à la minute 10'00'')
+            </p>
+            <p>
+              <MicrophoneIcon className="inline-block h-5 w-5 text-blue-500	" />
               <a href="https://radionotredame.net/embed/375786">
                 Radio Notre-Dame avec M. Louis Daufrenes le 9 mars 2022
               </a>{" "}
