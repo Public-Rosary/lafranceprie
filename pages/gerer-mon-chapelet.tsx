@@ -117,6 +117,22 @@ const HowToBeginARosaryPage: NextPage = () => {
               </div>
               <div className="m-2 rounded border-2 border-indigo-100 bg-indigo-50 p-2 text-center">
                 <h3 className="my-4 text-2xl font-bold">
+                  Commander des drapeaux et des livrets
+                </h3>
+
+                <div className="m-4 inline-flex rounded-md shadow">
+                  <a
+                    href="https://forms.gle/tFr9Z8g3xe1fPJcF8"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+                  >
+                    Commande
+                  </a>
+                </div>
+              </div>
+              <div className="m-2 rounded border-2 border-indigo-100 bg-indigo-50 p-2 text-center">
+                <h3 className="my-4 text-2xl font-bold">
                   Ajouter ou gérer votre chapelet sur&nbsp;la&nbsp;carte
                 </h3>
                 <p className="m-2 text-sm text-gray-500">
