@@ -139,11 +139,6 @@ const PilgrimVirgin: NextPage = () => {
                   Chaque formulaire est vérifié par un bénévole, qui vous mettra
                   ensuite en relation avec votre coordinateur régional.
                 </p>
-                <p className="m-2 text-sm text-gray-500">
-                  Date limite d'inscription:{" "}
-                    <span className="font-bold">18 septembre 2022</span>
-
-                </p>
                 <div className="m-4 inline-flex rounded-md shadow">
                   <a
                     href="https://forms.gle/8AWNbQ4CFMhaXoh2A"

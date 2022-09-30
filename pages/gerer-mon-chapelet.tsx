@@ -103,7 +103,7 @@ const HowToBeginARosaryPage: NextPage = () => {
               <h3 className="my-4 text-2xl font-bold">
                   Initiative "Vierge Pèlerine"
                 </h3>
-                <p>Inscrivez votre groupe avant le 18 Septembre 2022 pour recevoir la Vierge Pèlerine à partir d'Octobre</p>
+                <p>Inscrivez votre groupe pour recevoir la Vierge Pèlerine à partir d'Octobre</p>
                 <div className="m-4 inline-flex rounded-md shadow">
                   <Link
                     href="/vierge-pelerine"
