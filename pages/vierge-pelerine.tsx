@@ -84,8 +84,7 @@ const PilgrimVirgin: NextPage = () => {
               <p>
                 Si vous êtes organisateur de chapelet, inscrivez votre groupe de
                 chapelet via{" "}
-                <a href="https://forms.gle/8AWNbQ4CFMhaXoh2A">ce formulaire</a>{" "}
-                <span className="font-bold">avant le 18 septembre 2022</span>.
+                <a href="https://forms.gle/8AWNbQ4CFMhaXoh2A">ce formulaire</a>.
                 Nous vous mettrons ensuite en relation avec un organisateur
                 régional. Cette personne aura comme mission:
                 <ul>
