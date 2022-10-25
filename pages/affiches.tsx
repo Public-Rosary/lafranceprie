@@ -5,12 +5,12 @@ import Head from "next/head";
 import Layout from "../components/layout";
 
 const posters = [
-  {
-    cloudinaryPublicId: "posters/Affiche_LFP-A4-M-A_TEK-DEF_dorna5",
-    fileName: "affiche_lfp-a4-m-a_tek-def.pdf",
-    imageAlt: "Affiche Variante 1",
-    shortLink: "https://bit.ly/3BQ6edp",
-  },
+  // {
+  //   cloudinaryPublicId: "posters/Affiche_LFP-A4-M-A_TEK-DEF_dorna5",
+  //   fileName: "affiche_lfp-a4-m-a_tek-def.pdf",
+  //   imageAlt: "Affiche Variante 1",
+  //   shortLink: "https://bit.ly/3BQ6edp",
+  // },
   {
     cloudinaryPublicId: "posters/Affiche_LeChapeletLaurencon_civap4",
     fileName: "affiche_lechapeletlaurencon.pdf",
@@ -36,30 +36,30 @@ const posters = [
     imageAlt: "Affiche Variante 5",
     shortLink: "https://bit.ly/3IzePE1",
   },
-  {
-    cloudinaryPublicId: "posters/Affiche_LFP_A4_natshez_1_lnkcfz",
-    fileName: "affiche_lfp_a4_natshez_1.png",
-    imageAlt: "Affiche Variante 6",
-    shortLink: "https://bit.ly/3JYKFKy",
-  },
-  {
-    cloudinaryPublicId: "posters/Affiche_LFP_A4_natshez_2_knyoa",
-    fileName: "affiche_lfp_a4_natshez_2.png",
-    imageAlt: "Affiche Variante 7",
-    shortLink: "https://bit.ly/3HD5SYO",
-  },
-  {
-    cloudinaryPublicId: "posters/affiche_lfp_a4_natshez_pontmain_imu2wm",
-    fileName: "affiche_lfp_a4_natshez_pontmain.png",
-    imageAlt: "Affiche Variante 8",
-    shortLink: "https://bit.ly/3puq6h3",
-  },
-  {
-    cloudinaryPublicId: "posters/affiche_lfp_a3_lespetitsbrins-1_ljzm1d",
-    fileName: "affiche_lfp_a3_lespetitsbrins-1.pdf",
-    imageAlt: "Affiche Variante 9",
-    shortLink: "https://bit.ly/3MnNjLZ",
-  },
+  // {
+  //   cloudinaryPublicId: "posters/Affiche_LFP_A4_natshez_1_lnkcfz",
+  //   fileName: "affiche_lfp_a4_natshez_1.png",
+  //   imageAlt: "Affiche Variante 6",
+  //   shortLink: "https://bit.ly/3JYKFKy",
+  // },
+  // {
+  //   cloudinaryPublicId: "posters/Affiche_LFP_A4_natshez_2_knyoa",
+  //   fileName: "affiche_lfp_a4_natshez_2.png",
+  //   imageAlt: "Affiche Variante 7",
+  //   shortLink: "https://bit.ly/3HD5SYO",
+  // },
+  // {
+  //   cloudinaryPublicId: "posters/affiche_lfp_a4_natshez_pontmain_imu2wm",
+  //   fileName: "affiche_lfp_a4_natshez_pontmain.png",
+  //   imageAlt: "Affiche Variante 8",
+  //   shortLink: "https://bit.ly/3puq6h3",
+  // },
+  // {
+  //   cloudinaryPublicId: "posters/affiche_lfp_a3_lespetitsbrins-1_ljzm1d",
+  //   fileName: "affiche_lfp_a3_lespetitsbrins-1.pdf",
+  //   imageAlt: "Affiche Variante 9",
+  //   shortLink: "https://bit.ly/3MnNjLZ",
+  // },
   {
     cloudinaryPublicId: "posters/affiche_lfp_a3_lespetitsbrins-2_tspceo",
     fileName: "affiche_lfp_a3_lespetitsbrins-2.pdf",
@@ -83,12 +83,12 @@ const flyers = [
     imageAlt: "Flyer Variante 2",
     shortLink: "https://bit.ly/3psrwsv",
   },
-  {
-    cloudinaryPublicId: "posters/Flyer_LFP_A5_natshez_sfp5iu",
-    fileName: "flyer_lfp_a5_natshez.pdf",
-    imageAlt: "Flyer Variante 3",
-    shortLink: "https://bit.ly/3hwhfY4",
-  },
+  // {
+  //   cloudinaryPublicId: "posters/Flyer_LFP_A5_natshez_sfp5iu",
+  //   fileName: "flyer_lfp_a5_natshez.pdf",
+  //   imageAlt: "Flyer Variante 3",
+  //   shortLink: "https://bit.ly/3hwhfY4",
+  // },
 ];
 
 const PostersPage: NextPage = () => {
