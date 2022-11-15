@@ -20,6 +20,7 @@ const navigation = [
   { name: "Les affiches", href: "/affiches" },
   { name: "Dons", href: "/dons" },
   { name: "Presse", href: "/presse" },
+  { name: "Actualités", href: "/actualites" },
 ];
 
 const Menu: NextPage<Props> = ({ children }) => {

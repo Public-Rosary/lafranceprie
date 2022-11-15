@@ -10,9 +10,12 @@
     "prettier:fix": "prettier --write '{components,pages,lib}/**/*.{ts,tsx}'"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "^12.2.2",
+    "next-mdx-remote": "^4.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "reading-time": "^1.5.0"
   },
   "devDependencies": {
     "@headlessui/react": "^1.6.1",
