@@ -117,7 +117,7 @@ const HowToBeginARosaryPage: NextPage = () => {
               </div>
               <div className="m-2 rounded border-2 border-indigo-100 bg-indigo-50 p-2 text-center">
                 <h3 className="my-4 text-2xl font-bold">
-                  Commander des drapeaux et des livrets
+                  Commander (drapeau, livrets de prières et de chants, tracts, affiches, livrets de la vierge pèlerine)
                 </h3>
 
                 <div className="m-4 inline-flex rounded-md shadow">
