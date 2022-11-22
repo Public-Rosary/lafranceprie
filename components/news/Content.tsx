@@ -5,7 +5,7 @@ interface Props {
 };
 
 const Content = ({ content }: Props) => (
-  <div style={{ display: "flex", direction: "column", alignItems: "center", justifyItems:"center" }}>
+  <div >
     {content}
   </div>
 );

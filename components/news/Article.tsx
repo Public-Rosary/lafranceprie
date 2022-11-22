@@ -24,7 +24,7 @@ const Article = ({
   ogImage,
   content,
 }: Props) => (
-  <div style={{ display: "flex", direction: "column", alignItems: "center", justifyItems:"center" }}>
+  <div >
     <Header
       readingTime={readingTime}
       title={title}

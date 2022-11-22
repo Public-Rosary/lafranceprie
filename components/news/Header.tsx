@@ -13,14 +13,16 @@ interface Props {
 }
 
 const Header = ({ title, description, date, ogImage }: Props) => (
-  <div style={{ display: "flex", direction: "column", alignItems: "center", justifyItems:"center" }}>
-    <p style={{ color: "#6F6F6F", fontWeight: "300", textAlign: "center" }}>
-      Published on {date}
-    </p>
+  <div>
+  <div style={{ display: "flex", direction: "row", alignItems: "start", justifyItems:"center" }}>
+    
 
     <h1 style={{ color: "#101010", fontWeight: "600", textAlign: "center" }}>
       {title}
     </h1>
+
+    </div>
+      <div style={{ display: "flex", direction: "row", alignItems: "start", justifyItems:"center" }}>
 
     <p style={{ color: "#6F6F6F", fontWeight: "300", textAlign: "center" }}>
       {description}
@@ -32,6 +34,11 @@ const Header = ({ title, description, date, ogImage }: Props) => (
       style={{ width: "100%", height: 400, borderRadius: 5, objectFit: "cover" }}
       lazy="loading"
     />
+    
+    <p style={{ color: "#6F6F6F", fontWeight: "300", textAlign: "center" }}>
+      Publié  le {date}
+    </p>
+  </div>
   </div>
 );
 

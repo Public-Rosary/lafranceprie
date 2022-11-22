@@ -24,13 +24,18 @@ const ArticleItem = ({ article }: Props) => (
     <div
       style={{
         display: "flex",
-        direction: "column",
+        flexDirection: "column",
         alignItems: "center",
         justifyItems: "center",
+
       }}
+
+      className="col-span-2"
     >
       <NextLink as={`/actualites/${article.slug}`} href="/actualites/[slug]">
+      <span className="font-bold">
         <a href="/actualites">{article.title}</a>
+        </span>
       </NextLink>
 
       <p style={{ color: "#6F6F6F, fontSize: 16, fontWeight: 300 }}>" }}>
@@ -40,25 +45,20 @@ const ArticleItem = ({ article }: Props) => (
       <div
         style={{
           display: "flex",
-          direction: "column",
+          flexDirection: "column",
           alignItems: "center",
           justifyItems: "center",
         }}
       >
         <p style={{ color: "#6F6F6F, fontSize: 16, fontWeight: 300 }}>" }}>
-          {article.timeReading.text}
-        </p>
-
-        <p style={{ color: "#6F6F6F, fontSize: 16, fontWeight: 300 }}>" }}>•</p>
-        <p style={{ color: "#6F6F6F, fontSize: 16, fontWeight: 300 }}>" }}>
-          {article.date}
+          {article.timeReading.text} • {article.date}
         </p>
       </div>
 
-      <NextLink as={`/blog/${article.slug}`} href="/actualites/[slug]">
-        <a href="/actualites" color="#6f6f6f">
-          Lire l'article
-        </a>
+      <NextLink as={`/actualites/${article.slug}`} href="/actualites/[slug]">
+      <span className="flex items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg">
+          Lire l&#39;article
+          </span>
       </NextLink>
     </div>
   </>

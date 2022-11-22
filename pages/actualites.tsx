@@ -58,7 +58,7 @@ const NewsPage: NextPage<Props> = ({ articles }: Props) => {
             </p>
           </div>
           <div className="container mx-auto">
-            <div className="grid grid-cols-1 gap-y-20 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+            <div className="grid grid-cols-1 divide-y gap-y-20 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
               {articles.map((article) => (
                   <ArticleItem key={article.slug} article={article} />
               ))}
