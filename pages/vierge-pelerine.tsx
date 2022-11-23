@@ -5,6 +5,14 @@ import Link from "next/link";
 
 import Layout from "../components/layout";
 
+const poster = {
+  cloudinaryPublicId: "ilebouchard_gzlfsr",
+  fileName: "ilebouchard_gzlfsr.jpg",
+  imageAlt: "Ile-Bouchard",
+  shortLink: "https://bit.ly/3OrREPF",
+
+};
+
 const PilgrimVirgin: NextPage = () => {
   return (
     <>
@@ -29,6 +37,31 @@ const PilgrimVirgin: NextPage = () => {
           </div>
 
           <div className="my-12 lg:my-24 xl:grid xl:grid-cols-3">
+            <div className="prose mx-auto p-4 text-justify lg:prose-lg xl:col-span-2 xl:row-span-3">
+              <div className="mx-auto">
+                <a href={poster.shortLink} download>
+                  <div className="border-4 border-white bg-gray-200 shadow-lg transition-shadow hover:shadow-2xl">
+                    <img
+                      src={`https://res.cloudinary.com/lafranceprie/t_poster/w_300,q_auto/${poster.cloudinaryPublicId}.jpg`}
+                        alt={poster.imageAlt}
+                        className="aspect-[1/1.41] max-w-[300px] bg-gray-300"
+                        loading="lazy"
+                        srcSet={`https://res.cloudinary.com/lafranceprie/t_poster/w_100,f_auto,q_auto/${poster.cloudinaryPublicId}.jpg 100w,
+                                https://res.cloudinary.com/lafranceprie/t_poster/w_150,f_auto,q_auto/${poster.cloudinaryPublicId}.jpg 150w,
+                                https://res.cloudinary.com/lafranceprie/t_poster/w_200,f_auto,q_auto/${poster.cloudinaryPublicId}.jpg 200w,
+                                https://res.cloudinary.com/lafranceprie/t_poster/w_300,f_auto,q_auto/${poster.cloudinaryPublicId}.jpg 300w,
+                                https://res.cloudinary.com/lafranceprie/t_poster/w_600,f_auto,q_auto/${poster.cloudinaryPublicId}.jpg 2x,
+                                https://res.cloudinary.com/lafranceprie/t_poster/w_900,f_auto,q_auto/${poster.cloudinaryPublicId}.jpg 3x`}
+                      />
+                    </div>
+                    <div className="mt-4 w-full text-center">
+                      <p className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-2 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-3 md:px-10 md:text-lg">
+                        Télécharger
+                      </p>
+                    </div>
+                  </a>
+                </div>
+            </div>
             <div className="prose mx-auto p-4 text-justify lg:prose-lg xl:col-span-2 xl:row-span-3">
               <h3>En quoi consiste cette initiative?</h3>
               <p>
