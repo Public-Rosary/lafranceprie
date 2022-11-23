@@ -2,6 +2,7 @@ import React from "react";
 import NextLink from "next/link";
 
 import { Article } from "../../lib/types";
+import Link from "next/link";
 
 interface Props {
   article: Article;
@@ -16,7 +17,7 @@ const ArticleItem = ({ article }: Props) => (
         width: "100%",
         height: 250,
         borderRadius: 5,
-        objectFit: "cover",
+        objectFit: "contain",
       }}
       lazy="loading"
     />
@@ -34,7 +35,7 @@ const ArticleItem = ({ article }: Props) => (
     >
       <NextLink as={`/actualites/${article.slug}`} href="/actualites/[slug]">
       <span className="font-bold">
-        <a href="/actualites">{article.title}</a>
+        <Link href="/actualites">{article.title}</Link>
         </span>
       </NextLink>
 

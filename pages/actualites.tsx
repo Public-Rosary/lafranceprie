@@ -51,12 +51,6 @@ const NewsPage: NextPage<Props> = ({ articles }: Props) => {
               Actualités
             </h1>
           </div>
-
-          <div className="prose my-12 mx-auto p-4 text-justify lg:prose-lg">
-            <p>
-              eoau
-            </p>
-          </div>
           <div className="container mx-auto">
             <div className="grid grid-cols-1 divide-y gap-y-20 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
               {articles.map((article) => (

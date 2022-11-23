@@ -31,7 +31,7 @@ const Header = ({ title, description, date, ogImage }: Props) => (
     <img
       src={ogImage.url}
       alt="Post image"
-      style={{ width: "100%", height: 400, borderRadius: 5, objectFit: "cover" }}
+      style={{ width: "100%", height: 400, borderRadius: 5, objectFit: "contain" }}
       lazy="loading"
     />
     

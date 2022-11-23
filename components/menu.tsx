@@ -28,7 +28,7 @@ const Menu: NextPage<Props> = ({ children }) => {
     <>
       <div className="relative overflow-visible bg-white">
         <div className="mx-auto max-w-7xl">
-          <div className="relative z-10 bg-white pb-8 lg:w-full lg:max-w-2xl">
+          <div className="relative z-10 bg-white pb-8 lg:w-full lg:max-w-3xl">
             <svg
               className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block"
               fill="currentColor"
@@ -135,6 +135,11 @@ const Menu: NextPage<Props> = ({ children }) => {
                     <Link href="/vierge-pelerine" passHref>
                       <span className="block w-full bg-gray-50 px-5 py-3 text-center font-bold text-indigo-600 hover:bg-gray-100">
                         Vierge Pèlerine
+                      </span>
+                    </Link>
+                    <Link href="/actualites" passHref>
+                      <span className="block w-full bg-gray-50 px-5 py-3 text-center font-bold text-indigo-600 hover:bg-gray-100">
+                        Actualités
                       </span>
                     </Link>
                   </div>
