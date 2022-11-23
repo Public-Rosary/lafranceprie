@@ -19,7 +19,7 @@ const ArticleItem = ({ article }: Props) => (
         borderRadius: 5,
         objectFit: "contain",
       }}
-      lazy="loading"
+      loading="lazy"
     />
 
     <div

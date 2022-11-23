@@ -39,9 +39,7 @@ type Params = {
   export async function getStaticProps({ params }: Params) {
     const { content, data } = api.getRawArticleBySlug(params.slug);
     const mdxSource = await serialize(content, {
-      mdxOptions: {
         parseFrontmatter: true
-      },
     });
     const tags = data.tags ?? [];
     return {

@@ -5,7 +5,7 @@ import Head from "next/head";
 import Layout from "../components/layout";
 import ArticleItem from "../components/news/ArticleItem";
 import { api } from "../lib/news";
-import { NewsArticle } from "../lib/types";
+import { Article, NewsArticle } from "../lib/types";
 
 export const getStaticProps = async () => {
   const articles: Array<NewsArticle> = api.getAllArticles([
@@ -25,7 +25,7 @@ export const getStaticProps = async () => {
 };
 
 interface Props {
-  articles: Array<NewsArticle>;
+  articles: Array<Article>;
 };
 
 

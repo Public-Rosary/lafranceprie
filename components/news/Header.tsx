@@ -14,7 +14,7 @@ interface Props {
 
 const Header = ({ title, description, date, ogImage }: Props) => (
   <div>
-  <div style={{ display: "flex", direction: "row", alignItems: "start", justifyItems:"center" }}>
+  <div style={{ display: "flex", flexDirection: "row", alignItems: "start", justifyItems:"center" }}>
     
 
     <h1 style={{ color: "#101010", fontWeight: "600", textAlign: "center" }}>
@@ -22,7 +22,7 @@ const Header = ({ title, description, date, ogImage }: Props) => (
     </h1>
 
     </div>
-      <div style={{ display: "flex", direction: "row", alignItems: "start", justifyItems:"center" }}>
+      <div style={{ display: "flex", flexDirection: "row", alignItems: "start", justifyItems:"center" }}>
 
     <p style={{ color: "#6F6F6F", fontWeight: "300", textAlign: "center" }}>
       {description}
@@ -32,7 +32,7 @@ const Header = ({ title, description, date, ogImage }: Props) => (
       src={ogImage.url}
       alt="Post image"
       style={{ width: "100%", height: 400, borderRadius: 5, objectFit: "contain" }}
-      lazy="loading"
+      loading="lazy"
     />
     
     <p style={{ color: "#6F6F6F", fontWeight: "300", textAlign: "center" }}>
