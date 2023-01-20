@@ -36,6 +36,10 @@ const HowToPrayRosaryPage: NextPage = () => {
             <p>
               <ul>
                 <li>
+                  Livret d'accompagnement de 32 pages, destiné à servir de support aux participants des chapelets:{" "}
+                  <a href="https://www.leslivreschretiens.fr/a-son-image/2143-373-la-france-prie-livret-d-accompagnement-9782364637641.html#/18-lot_livret-a_l_unite">leslivreschretiens.fr</a>
+                </li>
+                <li>
                   Histoire et guide du rosaire sur le site de la Milice de
                   l'Immaculée :{" "}
                   <a href="https://m-i.info/fr/le-rosaire/">m-i.info</a>
