@@ -107,7 +107,7 @@ const Home = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="mt-3 sm:mt-0">
                   <a target={"_blank"} href="https://www.youtube.com/@initiativelafranceprie7895" rel="noreferrer">
-                    <span className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-300 px-8 py-3 text-base font-medium text-white-700 hover:bg-red-400 md:py-4 md:px-10 md:text-lg">
+                    <span className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-400 px-8 py-3 text-base font-medium text-white hover:bg-red-500 md:py-4 md:px-10 md:text-lg">
                       Vidéos
                     </span>
                   </a>
