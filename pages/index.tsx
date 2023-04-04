@@ -95,13 +95,22 @@ const Home = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
                   </Link>
                 </div>
               </div>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="mt-3 sm:mt-0 sm:ml-3 sm:hidden">
+              <div className="mt-5 sm:mt-8 sm:justify-center lg:justify-start sm:hidden">
+                <div className="mt-3 sm:mt-0 sm:ml-3">
                   <Link href="/gerer-mon-chapelet">
                     <span className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg">
                       Organiser et gérer mon chapelet
                     </span>
                   </Link>
+                </div>
+              </div>
+              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                <div className="mt-3 sm:mt-0">
+                  <a target={"_blank"} href="https://www.youtube.com/@initiativelafranceprie7895" rel="noreferrer">
+                    <span className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg">
+                      Vidéos
+                    </span>
+                  </a>
                 </div>
               </div>
             </div>
