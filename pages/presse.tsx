@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import type { NextPage } from "next";
 import Head from "next/head";
-import { VideoCameraIcon, MicrophoneIcon } from "@heroicons/react/solid";
+import { VideoCameraIcon, MicrophoneIcon, DocumentTextIcon } from "@heroicons/react/solid";
 
 import Layout from "../components/layout";
 
@@ -9,7 +9,7 @@ const PressPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>La France prie | Nous aider</title>
+        <title>La France prie | Presse</title>
         <meta
           name="description"
           content="une initiative de laïcs catholiques pour promouvoir et multiplier la récitation du chapelet pour la France dans l'espace public pour ainsi confier cet espace à la Sainte Vierge et obtenir d'elle le retour de la paix et de la liberté dans le respect du droit naturel dans la société française"
@@ -29,6 +29,20 @@ const PressPage: NextPage = () => {
           </div>
 
           <div className="prose my-12 mx-auto w-full p-1 text-justify prose-h3:relative prose-h3:-left-2 lg:prose-lg lg:my-24">
+          <h3>Presse ecrite :</h3>
+            <p>
+              <DocumentTextIcon className="inline-block h-5 w-5 text-blue-500	" />
+              <a href="https://www.lesalonbeige.fr/bilan-des-chapelets-publics/?fbclid=IwAR12OEI2ckWVTcMtPK3K-pTkDeQhYqppKrnrUfb8r6JyG9k2S5KmS_JgvYY">
+              Le Salon Beige: Allocution de Louis-Pierre Laroche, initiateur de La France prie, le 1° février 2023 à Sankt Pölten (Autriche)
+              </a>
+            </p>
+            <p>
+              <DocumentTextIcon className="inline-block h-5 w-5 text-blue-500	" />
+              <a href="https://chretiensmagazine.fr/la-france-prie-2/">
+               Chrétiens Magazine: "La France prie" fête son 1er anniversaire
+              </a>
+            </p>
+
             <h3>Interviews en vidéo :</h3>
             <p>
               <VideoCameraIcon className="inline-block h-5 w-5 text-blue-500	" />
