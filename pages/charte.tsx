@@ -172,7 +172,6 @@ const Charter: NextPage = () => {
             <span className="text-right">
               <p>Louis-Pierre Laroche, initiateur international </p>
 
-              <p>Julien Le Page, responsable France</p>
             </span>
           </div>
         </main>
