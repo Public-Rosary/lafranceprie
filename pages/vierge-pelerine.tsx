@@ -181,6 +181,22 @@ const PilgrimVirgin: NextPage = () => {
                   </a>
                 </div>
               </div>
+              <div className="m-2 rounded border-2 border-indigo-100 bg-indigo-50 p-2 text-center">
+              <h3 className="my-4 text-2xl font-bold">
+                  Videos d'information
+                </h3>
+                <p>Nous avons préparés des vidéos d'explication </p>
+                <div className="m-4 inline-flex rounded-md shadow">
+                  <Link
+                    href="/vierge-pelerine-videos"
+                    >
+                  <a className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+                  >
+                    Découvrir les vidéos
+                  </a>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </main>
