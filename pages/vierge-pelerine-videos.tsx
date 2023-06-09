@@ -18,7 +18,7 @@ const PilgrimVirgin: NextPage = () => {
   return (
     <>
       <Head>
-        <title>La France prie - Vierge Pèlerine</title>
+        <title>La France prie - Vierge Pèlerine - Vidéos d'information</title>
         <meta
           name="description"
           content="une initiative de laïcs catholiques pour promouvoir et multiplier la récitation du chapelet pour la France dans l'espace public pour ainsi confier cet espace à la Sainte Vierge et obtenir d'elle le retour de la paix et de la liberté dans le respect du droit naturel dans la société française"
