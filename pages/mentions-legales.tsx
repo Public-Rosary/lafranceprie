@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 import Layout from "../components/layout";
+import Link from "next/link";
 
 const LegalsPage: NextPage = () => {
   return (
@@ -65,21 +66,8 @@ const LegalsPage: NextPage = () => {
               Polices de caractères Google Font
             </p>
 
-            <h3>Cookies</h3>
-            <p>
-              Nous n'utilisons pas de cookies. Pour mesurer les visites nous
-              utilisons seulement les données de notre hébergeur qui nous
-              donnent le nombre de personnes qui chargent les pages, sans
-              davantage d'informations personnelles.
-            </p>
-
-            <p>
-              En revanche nous utilisons les services de Google (Maps et
-              Youtube) qui, eux, sont susceptibles d'utiliser des cookies, de
-              vous reconnaitre et de vous suivre sur d'autres sites.
-              Malheureusement nous ne pouvons pas les en empêcher. Rassurez-vous
-              nous travaillons à les remplacer par des équivalents.
-            </p>
+            <h3>RGPD</h3>
+            <Link href="/rgdp">Politique de confidentialité des données</Link>
           </div>
         </main>
       </Layout>
