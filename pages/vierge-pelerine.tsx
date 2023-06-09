@@ -38,7 +38,7 @@ const PilgrimVirgin: NextPage = () => {
 
           <div className="my-12 lg:my-24 xl:grid xl:grid-cols-3">
             <div className="prose mx-auto p-4 text-justify lg:prose-lg xl:col-span-2 xl:row-span-3">
-              <div className="mx-auto">
+              <div className="mx-auto w-full max-w-[310px]">
                 <a href={poster.shortLink} download>
                   <div className="border-4 border-white bg-gray-200 shadow-lg transition-shadow hover:shadow-2xl">
                     <img
@@ -61,8 +61,6 @@ const PilgrimVirgin: NextPage = () => {
                     </div>
                   </a>
                 </div>
-            </div>
-            <div className="prose mx-auto p-4 text-justify lg:prose-lg xl:col-span-2 xl:row-span-3">
               <h3>En quoi consiste cette initiative?</h3>
               <p>
                 Conformément au message de Fatima, la dévotion au Cœur Immaculé
@@ -114,7 +112,7 @@ const PilgrimVirgin: NextPage = () => {
                 </li>
               </ul>
               <h3>Comment participer?</h3>
-              <p>
+              <div>
                 Si vous êtes organisateur de chapelet, inscrivez votre groupe de
                 chapelet via{" "}
                 <a href="https://forms.gle/8AWNbQ4CFMhaXoh2A">ce formulaire</a>.
@@ -131,8 +129,8 @@ const PilgrimVirgin: NextPage = () => {
                     groupe dans le cadre du cheminement de la vierge pèlerine.
                   </li>
                 </ul>
-              </p>
-              <p>
+              </div>
+              <div>
                 Au niveau de votre groupe de chapelet, il vous est ensuite
                 demandé de:
                 <ul>
@@ -162,7 +160,7 @@ const PilgrimVirgin: NextPage = () => {
                     présent.
                   </li>
                 </ul>
-              </p>
+              </div>
             </div>
             <div className="max-w-[48rem] md:mx-auto xl:sticky xl:top-10 xl:col-span-1">
               <div className="m-2 rounded border-2 border-indigo-100 bg-indigo-50 p-2 text-center">
