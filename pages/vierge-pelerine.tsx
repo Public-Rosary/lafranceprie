@@ -185,7 +185,7 @@ const PilgrimVirgin: NextPage = () => {
               <h3 className="my-4 text-2xl font-bold">
                   Videos d'information
                 </h3>
-                <p>Nous avons préparés des vidéos d'explication </p>
+                <p>Nous avons préparé des vidéos d'explication </p>
                 <div className="m-4 inline-flex rounded-md shadow">
                   <Link
                     href="/vierge-pelerine-videos"
