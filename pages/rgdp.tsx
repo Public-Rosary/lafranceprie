@@ -92,11 +92,11 @@ const LegalsPage: NextPage = () => {
               2016/679 du 25 mai 2018, vous disposez d'un droit d'accès, de
               rectification, de limitation et de suppression, des données vous
               concernant. Vous pouvez adresser vos demandes par courrier postale
-              à l'adresse suivante : France Prie - 1, rue de la Sellerie, 49220
-              Le Lion d'Angers, en joignant une copie de votre carte d'identité
-              et en précisant le Foyer concerné par vos données. Vous pouvez
-              également vous désabonner de tout envoi par mail grâce aux liens
-              de désinscription qui y sont présents.
+              à l'adresse suivante : Association La France Prie, chez Myriam
+              Nakad, 53 route de Rennes, 44700 Orvault, en joignant une copie de
+              votre carte d'identité et en précisant le Foyer concerné par vos
+              données. Vous pouvez également vous désabonner de tout envoi par
+              mail grâce aux liens de désinscription qui y sont présents.
             </p>
             <h3>Consentement</h3>
             <p>
