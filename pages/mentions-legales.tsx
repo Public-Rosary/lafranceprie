@@ -37,9 +37,11 @@ const LegalsPage: NextPage = () => {
             <p>
               <b>Association "La France Prie"</b>
               <br />
-              1, rue de la Sellerie
+              chez Myriam Nakad
               <br />
-              49220 Le Lion d'Angers
+              53 route de Rennes
+              <br />
+              44700 Orvault
               <br />
               <br />
               Association loi de 1901 enregistrée sous le N° W494004986

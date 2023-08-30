@@ -56,8 +56,7 @@ const GivingPage: NextPage = () => {
             <h3>Chèques</h3>
 
             <p>
-              Chèques a l'ordre de : "Association La France Prie", 1, rue de la
-              Sellerie, 49220 Le Lion d'Angers"
+              Chèques a l'ordre de : "Association La France Prie, chez Myriam Nakad, 53 route de Rennes, 44700 Orvault"
             </p>
 
             <h3>Acheter un Polo</h3>
