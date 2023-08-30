@@ -163,6 +163,22 @@ const PilgrimVirgin: NextPage = () => {
               </div>
             </div>
             <div className="max-w-[48rem] md:mx-auto xl:sticky xl:top-10 xl:col-span-1">
+            <div className="m-2 rounded border-2 border-indigo-100 bg-indigo-50 p-2 text-center">
+                <h3 className="my-4 text-2xl font-bold">Recommandations</h3>
+                <p className="m-2 text-sm text-gray-500">
+                  En vous inscrivant, vous vous engagez à suivre au plus près possible les recomandations des organisateurs.
+                </p>
+                <div className="m-4 inline-flex rounded-md shadow">
+                  <a
+                    href="https://res.cloudinary.com/lafranceprie/image/upload/v1693427522/10_recommandations_de_la_vierge_pelerine_2_epwyb1.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center justify-center rounded-md border border-transparent bg-red-600 px-5 py-3 text-base font-medium text-white hover:bg-red-700"
+                  >
+                    Télecharger les recommendations (PDF)
+                  </a>
+                </div>
+              </div>
               <div className="m-2 rounded border-2 border-indigo-100 bg-indigo-50 p-2 text-center">
                 <h3 className="my-4 text-2xl font-bold">Vous inscrire</h3>
                 <p className="m-2 text-sm text-gray-500">
