@@ -35,7 +35,9 @@ const ContactPage: NextPage = () => {
               <br />
               Nous vous remercions de votre compréhension.
             </p>
+            <h3>Par Télephone</h3>
 
+            <p>Secretariat : +33658803520</p>
             <h3>Par mail</h3>
 
             <p>
