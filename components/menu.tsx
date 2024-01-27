@@ -17,7 +17,7 @@ const navigation = [
   { name: "Les lieux", href: "/#carte" },
   //  { name: "Organiser", href: "#form" },
   { name: "La charte", href: "/charte" },
-  { name: "Les affiches", href: "/affiches" },
+  { name: "Commander", href: "/commandes" },
   { name: "Dons", href: "/dons" },
   { name: "Presse", href: "/presse" },
 ];
