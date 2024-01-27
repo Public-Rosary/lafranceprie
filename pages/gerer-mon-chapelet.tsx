@@ -29,7 +29,9 @@ const HowToBeginARosaryPage: NextPage = () => {
           </div>
 
           <div className="my-12 lg:my-24 xl:grid xl:grid-cols-3">
+
             <div className="prose mx-auto p-4 text-justify lg:prose-lg xl:col-span-2 xl:row-span-3">
+            <h2>Questions / Réponses</h2>
               <h3>Pourquoi organiser un chapelet public ?</h3>
               <ul>
                 <li>
@@ -97,6 +99,10 @@ const HowToBeginARosaryPage: NextPage = () => {
                   formulaire afin que cela soit reporté sur la carte.
                 </li>
               </ul>
+              <h3>
+                Est-ce qu'il y a des resources disponibles pour m'aider à organiser mon chapelet ?
+              </h3>
+              <p>Bien sûr! La page <Link href={"/commandes"}>"commandes"</Link> vous permet de nous commander des livrets de chants et de prières, ainsi que des tracts ou affiches.</p>
             </div>
             <div className="max-w-[48rem] md:mx-auto xl:sticky xl:top-10 xl:col-span-1">
               <div className="m-2 rounded border-2 border-indigo-100 bg-indigo-50 p-2 text-center">
@@ -120,15 +126,14 @@ const HowToBeginARosaryPage: NextPage = () => {
                   Commander (drapeau, livrets de prières et de chants, tracts, affiches, livrets de la vierge pèlerine)
                 </h3>
 
-                <div className="m-4 inline-flex rounded-md shadow">
-                  <a
-                    href="https://forms.gle/tFr9Z8g3xe1fPJcF8"
-                    target="_blank"
+                <div className="m-4 inline-flex rounded-md shadow items-center justify-center border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700">
+                  <Link
+                    href="/commandes"
                     rel="noreferrer"
-                    className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+                    className=""
                   >
-                    Commande
-                  </a>
+                    Commandes
+                  </Link>
                 </div>
               </div>
               <div className="m-2 rounded border-2 border-indigo-100 bg-indigo-50 p-2 text-center">
