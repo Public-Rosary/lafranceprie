@@ -139,6 +139,10 @@ const PostersPage: NextPage = () => {
               A l'unité: 25€<br />
             </p>
             <p>
+              <h4>Petits drapeaux en tissu (20x30cm):</h4>
+              A l'unité: 5€<br />
+            </p>
+            <p>
               <h4>Tracts format A5:</h4>
               Par 100: 0,15€<br />
             </p>
