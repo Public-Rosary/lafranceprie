@@ -6,11 +6,10 @@ import Link from "next/link";
 import Layout from "../components/layout";
 
 const poster = {
-  cloudinaryPublicId: "ilebouchard_gzlfsr",
-  fileName: "ilebouchard_gzlfsr.jpg",
-  imageAlt: "Ile-Bouchard",
-  shortLink: "https://bit.ly/3OrREPF",
-
+  cloudinaryPublicId: "vp_pontmain_2024",
+  fileName: "vp_pontmain_2024.jpg",
+  imageAlt: "Vierge Pèlerine Pontmain",
+  shortLink: "https://bit.ly/vp_pontmain_2024",
 };
 
 const PilgrimVirgin: NextPage = () => {
@@ -40,18 +39,18 @@ const PilgrimVirgin: NextPage = () => {
             <div className="prose mx-auto p-4 text-justify lg:prose-lg xl:col-span-2 xl:row-span-3">
               <div className="mx-auto w-full max-w-[310px]">
                 <a href={poster.shortLink} download>
-                  <div className="border-4 border-white bg-gray-200 shadow-lg transition-shadow hover:shadow-2xl">
+                  <div className="border-4 border-white bg-gray-200 shadow-lg transition-shadow hover:shadow-2xl not-prose">
                     <img
-                      src={`https://res.cloudinary.com/lafranceprie/t_poster/w_300,q_auto/${poster.cloudinaryPublicId}.jpg`}
+                      src={`https://res.cloudinary.com/lafranceprie/image/upload/v1716460509/${poster.cloudinaryPublicId}.png`}
                         alt={poster.imageAlt}
-                        className="aspect-[1/1.41] max-w-[300px] bg-gray-300"
+                        className="aspect-[1/1] max-w-[300px] bg-gray-300 not-prose"
                         loading="lazy"
-                        srcSet={`https://res.cloudinary.com/lafranceprie/t_poster/w_100,f_auto,q_auto/${poster.cloudinaryPublicId}.jpg 100w,
-                                https://res.cloudinary.com/lafranceprie/t_poster/w_150,f_auto,q_auto/${poster.cloudinaryPublicId}.jpg 150w,
-                                https://res.cloudinary.com/lafranceprie/t_poster/w_200,f_auto,q_auto/${poster.cloudinaryPublicId}.jpg 200w,
-                                https://res.cloudinary.com/lafranceprie/t_poster/w_300,f_auto,q_auto/${poster.cloudinaryPublicId}.jpg 300w,
-                                https://res.cloudinary.com/lafranceprie/t_poster/w_600,f_auto,q_auto/${poster.cloudinaryPublicId}.jpg 2x,
-                                https://res.cloudinary.com/lafranceprie/t_poster/w_900,f_auto,q_auto/${poster.cloudinaryPublicId}.jpg 3x`}
+                        srcSet={`https://res.cloudinary.com/lafranceprie/w_100,f_auto,q_auto/${poster.cloudinaryPublicId}.png 100w,
+                                https://res.cloudinary.com/lafranceprie/w_150,f_auto,q_auto/${poster.cloudinaryPublicId}.png 150w,
+                                https://res.cloudinary.com/lafranceprie/w_200,f_auto,q_auto/${poster.cloudinaryPublicId}.png 200w,
+                                https://res.cloudinary.com/lafranceprie/w_300,f_auto,q_auto/${poster.cloudinaryPublicId}.png 300w,
+                                https://res.cloudinary.com/lafranceprie/w_600,f_auto,q_auto/${poster.cloudinaryPublicId}.png 2x,
+                                https://res.cloudinary.com/lafranceprie/w_900,f_auto,q_auto/${poster.cloudinaryPublicId}.png 3x`}
                       />
                     </div>
                     <div className="mt-4 w-full text-center">
