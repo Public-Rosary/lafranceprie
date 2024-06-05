@@ -8,8 +8,8 @@ const SocialMedias: NextPage = () => {
           Partagez votre chapelet au monde entier !
         </h3>
       </div>
-      <div className="grid grid-cols-3 gap-12 px-12 lg:px-32">
-        <div className="col-span-3 text-center sm:col-span-1">
+      <div className="grid grid-cols-4 gap-12 px-12 lg:px-32">
+        <div className="col-span-4 text-center sm:col-span-2">
           <a href="https://t.me/lafranceprie">
             <span className="text-xl font-extrabold sm:block">
               Notre groupe Telegram
@@ -33,7 +33,7 @@ const SocialMedias: NextPage = () => {
             </span>
           </a>
         </div>
-        <div className="col-span-3 text-center sm:col-span-1">
+        <div className="col-span-4 text-center sm:col-span-2">
           <a href="https://instagram.com/lafranceprie">
             <span className="text-xl font-extrabold sm:block">
               Notre profil Instagram
@@ -56,7 +56,7 @@ const SocialMedias: NextPage = () => {
             </span>
           </a>
         </div>
-        <div className="col-span-3 text-center sm:col-span-1">
+        <div className="col-span-4 text-center sm:col-span-2">
           <a href="https://www.facebook.com/LaFrancePrie2022/">
             <span className="text-xl font-extrabold sm:block">
               Notre page Facebook
@@ -77,6 +77,30 @@ const SocialMedias: NextPage = () => {
 
             <span className="block text-gray-600">
               sur lequel nous publions les photos de vos chapelets
+            </span>
+          </a>
+        </div>
+        <div className="col-span-4 text-center sm:col-span-2">
+          <a href="https://twitter.com/FrancePrie">
+            <span className="text-xl font-extrabold sm:block">
+              Notre page Twitter
+            </span>
+
+            <img
+              className="m-6 inline h-8 w-auto sm:h-32"
+              src="https://res.cloudinary.com/lafranceprie/f_auto,c_limit,q_auto/twitter.png"
+              alt="Page Twitter"
+              loading="lazy"
+              srcSet="https://res.cloudinary.com/lafranceprie/f_auto,c_limit,w_16,q_auto/twitter.png 16w,
+                      https://res.cloudinary.com/lafranceprie/f_auto,c_limit,w_32,q_auto/twitter.png 32w,
+                      https://res.cloudinary.com/lafranceprie/f_auto,c_limit,w_64,q_auto/twitter.png 64w,
+                      https://res.cloudinary.com/lafranceprie/f_auto,c_limit,w_120,q_auto/twitter.png 120w,
+                      https://res.cloudinary.com/lafranceprie/f_auto,c_limit,w_240,q_auto/twitter.png 240w,
+                      https://res.cloudinary.com/lafranceprie/f_auto,c_limit,w_480,q_auto/twitter.png 480w"
+            />
+
+            <span className="block text-gray-600">
+              sur lequel nous publions régulièrement des nouvelles et des photos
             </span>
           </a>
         </div>
