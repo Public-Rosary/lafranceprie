@@ -32,6 +32,12 @@ const PressPage: NextPage = () => {
           <h3>Presse ecrite :</h3>
             <p>
               <DocumentTextIcon className="inline-block h-5 w-5 text-blue-500	" />
+              <a href="https://diocesedelaval.fr/pontmain-les-3-vierges-pelerines-de-retour-le-12-octobre/">
+              Pontmain : les 3 Vierges Pèlerines de retour le 12 octobre - Diocèse de Laval
+              </a>
+            </p>
+            <p>
+              <DocumentTextIcon className="inline-block h-5 w-5 text-blue-500	" />
               <a href="https://www.lesalonbeige.fr/bilan-des-chapelets-publics/?fbclid=IwAR12OEI2ckWVTcMtPK3K-pTkDeQhYqppKrnrUfb8r6JyG9k2S5KmS_JgvYY">
               Le Salon Beige: Allocution de Louis-Pierre Laroche, initiateur de La France prie, le 1° février 2023 à Sankt Pölten (Autriche)
               </a>
