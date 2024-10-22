@@ -39,11 +39,11 @@ const PilgrimVirgin: NextPage = () => {
             <div className="prose mx-auto p-4 text-justify lg:prose-lg xl:col-span-2 xl:row-span-3">
               <div className="mx-auto w-full max-w-[310px]">
                 <a href={poster.shortLink} download>
-                  <div className="border-4 border-white bg-gray-200 shadow-lg transition-shadow hover:shadow-2xl not-prose">
+                  <div className="not-prose border-4 border-white bg-gray-200 shadow-lg transition-shadow hover:shadow-2xl">
                     <img
                       src={`https://res.cloudinary.com/lafranceprie/image/upload/v1716460509/${poster.cloudinaryPublicId}.png`}
                       alt={poster.imageAlt}
-                      className="aspect-[1/1] max-w-[300px] bg-gray-300 not-prose"
+                      className="not-prose aspect-[1/1] max-w-[300px] bg-gray-300"
                       loading="lazy"
                       srcSet={`https://res.cloudinary.com/lafranceprie/w_100,f_auto,q_auto/${poster.cloudinaryPublicId}.png 100w,
 https://res.cloudinary.com/lafranceprie/w_150,f_auto,q_auto/${poster.cloudinaryPublicId}.png 150w,
@@ -60,11 +60,20 @@ https://res.cloudinary.com/lafranceprie/w_900,f_auto,q_auto/${poster.cloudinaryP
                   </div>
                 </a>
               </div>
-              <div class="bg-blue-100 border-l-4 border-blue-500 rounded-b text-blue-900 px-4 py-3 shadow-md" role="alert">
-                <div class="flex">
+              <div
+                className="rounded-b border-l-4 border-blue-500 bg-blue-100 px-4 py-3 text-blue-900 shadow-md"
+                role="alert"
+              >
+                <div className="flex">
                   <div>
-                    <p class="text-xl font-bold">Pensez à vous inscrire pour recevoir une Vierge pelerine en 2025-2026.</p>
-                    <p class="text-xl">Pour plus de renseignements vous pouvez appeler le secrétariat au 06 58 80 35 20</p>
+                    <p className="text-xl font-bold">
+                      Pensez à vous inscrire pour recevoir une Vierge pelerine
+                      en 2025-2026.
+                    </p>
+                    <p className="text-xl">
+                      Pour plus de renseignements vous pouvez appeler le
+                      secrétariat au 06 58 80 35 20
+                    </p>
                   </div>
                 </div>
               </div>
@@ -173,7 +182,8 @@ https://res.cloudinary.com/lafranceprie/w_900,f_auto,q_auto/${poster.cloudinaryP
               <div className="m-2 rounded border-2 border-indigo-100 bg-indigo-50 p-2 text-center">
                 <h3 className="my-4 text-2xl font-bold">Recommandations</h3>
                 <p className="m-2 text-sm text-gray-500">
-                  En vous inscrivant, vous vous engagez à suivre au plus près possible les recommandations des organisateurs.
+                  En vous inscrivant, vous vous engagez à suivre au plus près
+                  possible les recommandations des organisateurs.
                 </p>
                 <div className="m-4 inline-flex rounded-md shadow">
                   <a
@@ -210,11 +220,8 @@ https://res.cloudinary.com/lafranceprie/w_900,f_auto,q_auto/${poster.cloudinaryP
                 </h3>
                 <p>Nous avons préparé des vidéos d'explication </p>
                 <div className="m-4 inline-flex rounded-md shadow">
-                  <Link
-                    href="/vierge-pelerine-videos"
-                  >
-                    <a className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
-                    >
+                  <Link href="/vierge-pelerine-videos">
+                    <a className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700">
                       Découvrir les vidéos
                     </a>
                   </Link>
