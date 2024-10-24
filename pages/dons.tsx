@@ -39,7 +39,7 @@ const GivingPage: NextPage = () => {
               <span className="underline">IBAN</span>: FR76 1380 7000 5832 8219
               7950 554
               <br />
-              <span className="underline">BIC</span>: CCBFRPPNAN
+              <span className="underline">BIC</span>: CCBPFRPPNAN
               <br />
               <span className="underline">Titulaire de compte</span>:
               Association La France Prie
@@ -56,7 +56,8 @@ const GivingPage: NextPage = () => {
             <h3>Chèques</h3>
 
             <p>
-              Chèques a l'ordre de : "Association La France Prie, chez Myriam Nakad, 53 route de Rennes, 44700 Orvault"
+              Chèques a l'ordre de : "Association La France Prie, chez Myriam
+              Nakad, 53 route de Rennes, 44700 Orvault"
             </p>
 
             <h3>Acheter un Polo</h3>
