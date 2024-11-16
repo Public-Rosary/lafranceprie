@@ -4,12 +4,11 @@ import Head from "next/head";
 import Link from "next/link";
 
 import Layout from "../components/layout";
-
 const poster = {
-  cloudinaryPublicId: "vp_pontmain_2024",
-  fileName: "vp_pontmain_2024.jpg",
-  imageAlt: "Vierge Pèlerine Pontmain",
-  shortLink: "https://bit.ly/vp_pontmain_2024",
+  cloudinaryPublicId: "nouveau_parcours_2025",
+  fileName: "nouveau_parcours_2025.jpg",
+  imageAlt: "Vierge Pèlerine Nouveau Parcours 2025",
+  shortLink: "https://bit.ly/vpe_nouveau_parcours_2025",
 };
 
 const PilgrimVirgin: NextPage = () => {
