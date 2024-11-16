@@ -36,9 +36,16 @@ const PilgrimVirgin: NextPage = () => {
               Vierge Pèlerine
             </h1>
           </div>
-
           <div className="my-12 lg:my-24 xl:grid xl:grid-cols-3">
             <div className="prose mx-auto p-4 text-justify lg:prose-lg xl:col-span-2 xl:row-span-3">
+            <h2>Couronnement des trois vierges pèlerines à Pontmain - retour en images</h2>
+            <h3>12 octobre 2024</h3>
+              <Video videoId="9BG3f1euRv0" />
+            </div>
+          </div>
+          <div className="my-12 lg:my-24 xl:grid xl:grid-cols-3">
+            <div className="prose mx-auto p-4 text-justify lg:prose-lg xl:col-span-2 xl:row-span-3">
+            <h2>Soin des statues</h2>
               <h3>Manipulation et conditionnement de la Vierge Pèlerine</h3>
               <Video videoId="iFM8S_ir2hs" />
               <h3>Statue de la Vierge Pèlerine - Fixation de la statue sur son socle</h3>
