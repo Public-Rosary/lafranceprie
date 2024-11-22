@@ -84,18 +84,25 @@ https://res.cloudinary.com/lafranceprie/w_900,f_auto,q_auto/${poster.cloudinaryP
               </p>
               <p>
                 Pour répondre à cette demande de Notre-Dame, l'association « La
-                France Prie » va acquérir grâce à vos dons plusieurs statues de
+                France Prie » a acquis, grâce à vos dons, plusieurs statues de
                 Notre-Dame de Fatima (Statues du Cœur Immaculé, fidèles à
-                l’original, en bois, hauteur 60cm) chacune avec un brancard. Ce
-                dernier permettra à la statue d’être exposée à la vénération et
-                portée en procession.
+                l’original, en bois, hauteur 80cm) chacune avec un brancard. Ce
+                dernier permet à la statue d’être exposée à la vénération et
+                portée en procession.Ces Vierges sont conditionnées dans des
+                caisses en bois. Pas d’inquiétude, la Vierge et le brancard
+                rentrent dans une petite voiture.
               </p>
               <p>
-                A partir d’octobre 2022, ces vierges pèlerines commenceront à
-                visiter l'un après l'autre les groupes de chapelet qui
-                souhaitent participer et se seront inscrits à temps. Ces statues
-                se déplaceront au sein des groupes de prière semaine après
-                semaine.
+                Du 3 décembre 2022 au 12 octobre 2024, ces vierges pèlerines ont
+                parcouru plus de 12 000 kms à travers toute la France. Environ
+                250 groupes ont reçu notre Dame de Fatima durant au moins une
+                semaine et se sont transmis la Vierge en voiture. La distance
+                entre deux groupes était en moyenne de 80 kms.
+              </p>
+              <p>
+                A compter de 2025, les trois Vierges pélerines parcourront de
+                nouveau toute la France et nous comptons sur vous pour vous
+                inscrire nombreux.
               </p>
               <p>
                 A travers cette initiative, nous espérons que le Cœur Immaculé
@@ -131,19 +138,10 @@ https://res.cloudinary.com/lafranceprie/w_900,f_auto,q_auto/${poster.cloudinaryP
                 Si vous êtes organisateur de chapelet, inscrivez votre groupe de
                 chapelet via{" "}
                 <a href="https://forms.gle/8AWNbQ4CFMhaXoh2A">ce formulaire</a>.
-                Nous vous mettrons ensuite en relation avec un organisateur
-                régional. Cette personne aura comme mission:
-                <ul>
-                  <li>
-                    De coordonner le transport de la vierge pèlerine au sein de
-                    la région en prenant en compte que chaque groupe de prière
-                    ne reçoit la vierge qu’une seule fois dans l’année.
-                  </li>
-                  <li>
-                    D’appuyer et de conseiller les coordinateurs de chaque
-                    groupe dans le cadre du cheminement de la vierge pèlerine.
-                  </li>
-                </ul>
+                Vous serez alors contacté par le secrétaire national qui vous
+                donnera quelques consignes pratiques et vous communiquera les
+                coordonnées de la famille qui vous transmettra la Vierge et
+                celle à qui vous la confierez.
               </div>
               <div>
                 Au niveau de votre groupe de chapelet, il vous est ensuite
@@ -154,25 +152,16 @@ https://res.cloudinary.com/lafranceprie/w_900,f_auto,q_auto/${poster.cloudinaryP
                     fournie).
                   </li>
                   <li>
-                    Définir le calendrier de passage de la Vierge au sein de
-                    chaque famille et coordonner le transport.
-                  </li>
-                  <li>
-                    Présenter la statue sur le lieu de récitation du chapelet
-                    (avec une éventuelle procession en fonction des possibilités
-                    locales).
+                    Coordonner le passage de la Vierge au sein de chaque famille
+                    de votre entourage.
                   </li>
                   <li>
                     Organiser lors du chapelet hebdomadaire la consécration à la
-                    Vierge Marie après le chapelet (la consécration personnelle
-                    se fait sur la base du volontariat).
+                    Vierge Marie après le chapelet.
                   </li>
                   <li>
-                    S’inscrire dans le livre de voyage de la vierge pèlerine.
-                  </li>
-                  <li>
-                    Organiser l'imposition du scapulaire si un prêtre est
-                    présent.
+                    Se coordonner avec les groupes précédents et suivants pour
+                    se transmettre la Vierge
                   </li>
                 </ul>
               </div>
